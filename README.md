@@ -4,7 +4,7 @@ CeloHT  Haiti’s Web3, Regeneration & Digital Inclusion Network
 
 Official Logo
 
-(Insert the official dark-blue/yellow logo here)
+![Image](https://github.com/user-attachments/assets/8c59e434-db05-47e4-8e86-2d3d35d83af3)
 
 
 

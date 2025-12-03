@@ -147,16 +147,16 @@ Monitoring for fraud, errors, and potential attacks.
 License
 
 CeloHT uses the MIT License.
-For more details: LICENSE
+
 
 
 
 Contact
 
-Email: contact@celoht.org
+Email: celoht3@gmail.com
 
-Website: https://celoht.org
+Website: https://celoht.com
 
-Twitter: @CeloHT
+Twitter: @CeloHt327
 
 

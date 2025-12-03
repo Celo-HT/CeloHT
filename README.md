@@ -4,37 +4,6 @@ CeloHT is a blockchain platform designed to support the Haitian community throug
 
 
 
-Table of Contents
-
-1. Overview
-
-
-2. Key Features
-
-
-3. Installation
-
-
-4. Usage
-
-
-5. Roadmap
-
-
-6. Contributing
-
-
-7. Security
-
-
-8. License
-
-
-9. Contact
-
-
-
-
 Overview
 
 CeloHT creates a digital ecosystem based on three core pillars:

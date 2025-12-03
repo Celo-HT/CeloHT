@@ -1,0 +1,49 @@
+# CeloHT – Platform Built on CELO and cUSD
+**Tagline:** Empowering the Celo ecosystem through native CELO and cUSD integration.
+
+
+
+## Overview
+CeloHT is a fully integrated platform within the **Celo ecosystem**, operating entirely with **CELO and cUSD**.  
+**Important:** CeloHT is **not a token**. It does not issue or create any custom ERC-20 token. All transactions, payments, and services rely on CELO or cUSD, ensuring maximum compatibility, security, and simplicity.
+
+CeloHT is structured around **three core pillars**:
+
+1. **Native CELO and cUSD Transactions**  
+All payments and services are conducted using CELO or cUSD. No custom token is required.
+
+2. **Wallet Integration**  
+Fully compatible with wallets such as **Valora**, **MetaMask**, **imToken**, and **Essentials**. Users can interact directly with CELO/cUSD without additional setup.
+
+3. **dApp Integration**  
+Provides APIs for dApps to connect with CeloHT backend. Ensures all transactions are conducted with CELO/cUSD for seamless integration.
+
+
+
+## Workflow Diagram
+![CeloHT Integration Diagram](CeloHT-integration.png)
+
+**Diagram Description:**  
+- CeloHT backend handles platform logic.  
+- CELO/cUSD are used for all blockchain transactions.  
+- Users interact via supported wallets.  
+- dApps integrate through API for smooth CELO/cUSD transactions.
+
+
+## Implementation Guide
+1. **Transaction Layer:** Use CELO/cUSD for all financial activities.  
+2. **Wallet Support:** Ensure compatibility with major Celo wallets.  
+3. **dApp API:** Provide endpoints for seamless dApp integration.
+
+
+## Benefits
+- **Full Compatibility:** Works seamlessly with wallets and dApps using CELO/cUSD.  
+- **Security & Simplicity:** No custom token required.  
+- **User-Friendly:** Users transact with familiar assets.  
+- **Foundation for Development:** Three pillars provide a stable base for dApps to build upon.
+
+
+## Next Steps
+- Test workflows on **Celo testnet** using Valora and other wallets.  
+- Publish GitHub repository with this README and workflow diagram.  
+- Promote CeloHT as a project in **Celo Explorer** and **Standa Hub** for visibility.

@@ -1,0 +1,158 @@
+date: 2025
+status: public
+authors:
+  - CeloHT Core Team
+legal_entity: CeloHT Inc., Haiti
+partners: None
+compliance:
+  - OECD Guidelines
+  - UN Sustainable Development Goals
+  - Local Crypto Regulations
+
+assumptions:
+  CELO_usd_price: 0.175
+  cUSD_usd_price: 1.00
+  note: All operational expenses use cUSD for stability; CELO used for reserve/incentive only.
+
+executive_summary: >
+  CeloHT is a Haitian Web3 initiative addressing Education, Financial Inclusion, and Environmental Restoration. 
+  Funding will enable transparent operations using cUSD for stable transactions and CELO for incentives, with blockchain verification for all transactions. 
+  CeloHT empowers communities through blockchain education, agent-led financial services, and sustainable ecological programs.
+
+problem_statement: >
+  Haiti faces limited financial access, low digital literacy, and environmental degradation. 
+  Over 70% of the population is unbanked. Web3 education is nearly nonexistent, particularly in rural areas. 
+  Rapid deforestation threatens ecosystems. CeloHT addresses these gaps using blockchain solutions with Celo and cUSD.
+
+objectives:
+  general:
+    - Accelerate blockchain adoption in Haiti
+    - Strengthen financial inclusion using cUSD and Celo incentives
+    - Support environmental sustainability
+  specific:
+    - Train 1,000+ students in Web3 within 12 months
+    - Deploy 50 financial agents serving 5,000 individuals with cUSD
+    - Plant 10,000 trees via 3 nurseries in year one
+    - Publish all educational content and progress reports on GitHub
+    - Track blockchain adoption KPIs: transaction volume, cUSD usage, adoption rate
+
+implementation_timeline:
+  phase_1:
+    name: Setup & Content Development
+    duration: Month 0–3
+    activities:
+      - Recruit core team and 10 local agents
+      - Develop multilingual educational content
+      - Setup GitHub repository
+      - Configure multi-signature Celo wallets for incentives
+  phase_2:
+    name: Pilot Programs
+    duration: Month 4–6
+    activities:
+      - Conduct workshops for 300 students
+      - Deploy 15 agents for cUSD onboarding
+      - Plant 3,000 trees with blockchain verification
+      - Publish first GitHub progress report by Month 6, Day 15
+  phase_3:
+    name: Full Rollout
+    duration: Month 7–12
+    activities:
+      - Expand to 1,000 students and 50 agents
+      - Plant remaining 7,000 trees
+      - Monthly GitHub updates and quarterly financial statements including cUSD transactions
+  phase_4:
+    name: Scaling & Evaluation
+    duration: Year 2+
+    activities:
+      - Monitor blockchain adoption, KPIs, and program impact
+      - Publish annual blockchain activity report on GitHub
+
+blockchain_workflow:
+  core_team_wallets: Multi-signature, secure, audited monthly
+  agents: Receive cUSD salaries, incentives via CELO if needed
+  community_participants: Onboarded via Celo wallets; cUSD used for stable payments
+  transactions: All operational payments in cUSD, traceable on blockchain
+  smart_contracts: Optional verification for tree planting, agent bonuses, milestone achievements
+  reporting: Blockchain transactions logged and published on GitHub
+
+crypto_contingency_plan:
+  wallet_loss_or_hack: Multi-sig backups and recovery procedures
+  CELO_volatility: Reserve CELO only for incentives; use cUSD for operations
+  network_issues: Prioritize cUSD stablecoin, adjust timing of transactions
+
+budget:
+  education_usd: 15000
+  education_cUSD: 15000
+  education_CELO_reserve: 85714  # $15,000 ÷ 0.175 USD/CELO
+  financial_agents_usd: 10000
+  financial_agents_cUSD: 10000
+  financial_agents_CELO_reserve: 57143
+  reforestation_usd: 12000
+  reforestation_cUSD: 12000
+  reforestation_CELO_reserve: 68571
+  operations_governance_usd: 8000
+  operations_governance_cUSD: 8000
+  operations_governance_CELO_reserve: 45714
+  technology_infrastructure_usd: 5000
+  technology_infrastructure_cUSD: 5000
+  technology_infrastructure_CELO_reserve: 28571
+  total_requested_usd: 50000
+  total_cUSD: 50000
+  total_CELO_reserve: 285713  # Sum of CELO reserves
+
+governance:
+  core_team: Strategy, oversight, cUSD wallet management, reporting
+  field_agents: Execute education, financial, and environmental programs; handle cUSD distribution
+  advisory_board: External evaluation and guidance
+  transparency_measures:
+    - Monthly progress reports
+    - Quarterly audited financial statements including cUSD
+    - GitHub open-source publication
+    - Independent annual review
+
+kpi:
+  education:
+    students_trained: 1000
+    pass_rate_percent: 80
+  financial_inclusion:
+    agents_deployed: 50
+    individuals_onboarded: 5000
+    transaction_success_rate_percent: 90
+    cUSD_volume_usd: 50000
+  reforestation:
+    trees_planted: 10000
+    survival_rate_percent: 85
+    geo_tracking_enabled: true
+  transparency:
+    reports_published_percent: 100
+    quarterly_audits: true
+  measurement_methods:
+    - Blockchain explorer logs for transactions
+    - Wallet transaction reports monthly
+    - Smart contract verification for milestones
+
+risk_contingency:
+  political_instability: Decentralized agent network, flexible sites, field coordinator oversight
+  low_digital_literacy: Step-by-step guides, mentorship, multilingual content
+  resource_limitations: Phased implementation, budget monitoring
+  environmental_challenges: Adaptive planting, field supervision
+  crypto_risks: cUSD usage, multi-sig wallets, audits, smart contracts
+
+compliance_ethics:
+  anti_corruption: true
+  adherence_laws: Haiti local crypto regulations
+  international_standards: OECD Guidelines, UN SDGs
+  community_environment_respect: true
+
+legal_operational_entity:
+  name: CeloHT Inc.
+  country: Haiti
+  ip_ownership: CeloHT Inc.
+  governance: Haitian law
+  blockchain_operations_documented: true
+
+monitoring_evaluation_reporting:
+  monthly_reports: Education, agents, trees, cUSD transactions
+  quarterly_financial_statements: Detailed expenses, cUSD volumes, CELO conversion
+  annual_impact_report: KPIs vs targets, blockchain transparency report
+  github_repository: Open-source publication of all content, reports, and logs.

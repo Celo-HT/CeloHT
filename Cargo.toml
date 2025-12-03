@@ -1,0 +1,24 @@
+[package]
+name="celoht"
+version="0.1.0"
+edition="2021"
+authors=["CeloHT Team <team@celoht.org>"]
+description="CeloHT: Community project for education, finance, and reforestation using CELO and cUSD."
+license="MIT"
+repository="https://github.com/CeloHT/celoht"
+readme="README.md"
+keywords=["Celo","cUSD","crypto","blockchain","community","education","finance","reforestation"]
+categories=["blockchain","education","finance"]
+
+[dependencies]
+serde={version="1.0",features=["derive"]}
+serde_json="1.0"
+tokio={version="1.28",features=["full"]}
+reqwest={version="0.12",features=["json"]}
+dotenv="0.15"
+
+[features]
+default=["async"]
+
+[badges]
+travis-ci={repository="CeloHT/celoht"}

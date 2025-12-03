@@ -1,0 +1,80 @@
+# 1. Introduction
+CeloHT is committed to maintaining the highest security standards across all its digital assets, repositories, and community tools. This document provides guidelines on how to report security vulnerabilities, how we handle disclosures, and the best practices contributors must follow.
+
+
+
+## 2. Reporting Vulnerabilities
+If you discover any security vulnerability in our repositories, systems, or documentation, please report it responsibly.
+
+### **How to report**
+- **Email:** security@celoht.org (placeholder — replace with official address)
+- **Subject Line:** "Security Vulnerability Report – CeloHT"
+- Provide:
+  - Description of the issue
+  - Steps to reproduce
+  - Potential impact
+  - Suggested mitigation (optional)
+- **Do NOT** open a public GitHub issue to report a vulnerability.
+
+### **Response Time**
+We aim to respond to all valid reports within **72 hours**.
+
+
+
+## 3. Disclosure Policy
+- CeloHT follows a **responsible disclosure** process.
+- After verifying the vulnerability, we will:
+  1. Confirm receipt of your report
+  2. Investigate the issue
+  3. Prepare and deploy a fix
+  4. Publicly disclose the issue **only after** the fix is implemented
+- If you wish to be credited, include your preferred name or handle in your report.
+
+
+## 4. Security Best Practices for Contributors
+To maintain high security standards, contributors must follow the rules below:
+
+### **4.1. Branch Protection**
+- All changes must be done through Pull Requests (PRs)
+- Mandatory code review from at least **one other contributor**
+- No direct commits to `main` or `production` branches
+
+### **4.2. Secrets & Keys**
+- Never commit API keys, private keys, passwords, or tokens
+- Use environment variables and `.env.example` templates
+- Rotate secrets immediately if exposed
+
+### **4.3. Dependencies**
+- Keep dependencies up to date
+- Run security scanners (e.g., GitHub Dependabot)
+- Avoid installing packages from untrusted sources
+
+### **4.4. Code Quality & Validation**
+- Follow secure coding guidelines
+- Validate user inputs
+- Avoid using deprecated functions
+- Sanitize all data sources
+
+
+
+## 5. Supported Versions
+CeloHT maintains security support only for active and stable branches.
+- `main` – Supported
+- `dev` – Supported
+- Archived branches – Not supported
+
+
+## 6. Security Contact
+For urgent matters, contact our team:
+- **Email:** security@celoht.org (placeholder)
+- **Telegram (optional):** @CeloHTSecurity
+
+Once the official contacts are finalized, update this document.
+
+
+## 7. License
+This security policy is released under the **MIT License** and can be reused by any open-source project.
+
+
+## 8. Acknowledgments
+Thanks to contributors and security researchers who help make CeloHT safer for everyone.

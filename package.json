@@ -1,0 +1,42 @@
+package.json
+
+{
+  "name": "celoht",
+  "version": "1.0.0",
+  "description": "CeloHT: Decentralized finance and crypto project leveraging Celo and cUSD.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node dist/index.js",
+    "dev": "ts-node src/index.ts",
+    "build": "tsc",
+    "lint": "eslint . --ext .ts,.js",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Celo-HT/celoht.git"
+  },
+  "keywords": [
+    "celo",
+    "crypto",
+    "defi",
+    "cUSD",
+    "blockchain"
+  ],
+  "author": "CeloHT Team",
+  "license": "MIT",
+  "dependencies": {
+    "@celo/contractkit": "^1.8.0",
+    "dotenv": "^16.3.1",
+    "axios": "^1.6.0",
+    "web3": "^1.10.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.2.2",
+    "ts-node": "^11.8.1",
+    "eslint": "^8.51.0",
+    "jest": "^29.6.1",
+    "@types/node": "^20.5.7",
+    "@types/jest": "^29.5.3"
+  }
+}

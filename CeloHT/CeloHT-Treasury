@@ -1,0 +1,92 @@
+# CeloHT Treasury Management & Proof-of-Treasury
+
+CeloHT operates fully on the **Celo blockchain**, using **CELO** and **cUSD** for all transactions.  
+This document serves as the official reference for treasury management, reporting, and governance, aligned with CeloHT’s **three foundational pillars** and international standards.
+
+
+
+## 1. Three Pillars of CeloHT
+
+1. **Community Trust** – Full transparency and verifiable reporting.  
+2. **Security & Governance** – Multisig treasury, strong internal controls, and risk management.  
+3. **Sustainable Growth** – Leveraging Celo blockchain and stablecoins for consistent, long-term development.
+
+All treasury operations are strictly aligned with these pillars.
+
+
+## 2. Multisig Treasury Management
+
+### 2.1 Objective
+To manage all administrative funds with maximum security, transparency, and compliance with international standards.
+
+### 2.2 Structure
+- **Treasury Tool:** Gnosis Safe or equivalent verified multisig platform.  
+- **Signers:** 5 authorized signers. Minimum 3 signatures required per transaction.  
+- **Assets:** CELO and cUSD only.  
+- **Signers Verification:** All signers are publicly listed and identity verified through organizational governance records.  
+
+### 2.3 Responsibilities
+- All transactions require majority approval.  
+- Every movement is fully traceable on-chain and logged internally.  
+- Funds are handled according to internal policies, risk assessments, and governance rules.  
+
+### 2.4 Escalation & Recovery
+- **Lost Key Protocol:** Emergency recovery procedure predefined in the multisig contract.  
+- **Dispute Resolution:** Governance committee reviews any contested transactions promptly.  
+- **Security Controls:** Continuous monitoring, risk mitigation, and emergency fund freeze mechanisms.  
+
+### 2.5 Benefits
+- Maximized fund security and operational integrity.  
+- Full transparency and community verifiability.  
+- Compliance with global blockchain governance and financial standards.
+
+
+
+## 3. Proof-of-Treasury Reporting
+
+### 3.1 Objective
+Provide transparent, verifiable, and audited reporting of all treasury activity to maintain community trust and regulatory compliance.
+
+### 3.2 Reporting Process
+1. All treasury transactions are automatically logged on the Celo blockchain.  
+2. Internal systems compile CELO and cUSD balances and movement history.  
+3. Proof-of-treasury reports are generated monthly, detailing deposits, withdrawals, and balances.  
+4. Reports include **direct blockchain explorer links** for all transactions.  
+5. Reports are published publicly via GitHub and the official CeloHT platform.
+
+### 3.3 External Audit & Compliance
+- Quarterly audits by **independent, internationally accredited auditors**.  
+- All reports adhere to **international accounting standards**.  
+- Compliance with **KYC/AML regulations** for all treasury signers and relevant transactions.  
+
+### 3.4 Benefits
+- Ensures community can independently verify treasury operations.  
+- Minimizes operational risk and potential mismanagement.  
+- Aligns with regulatory and international best practices.
+
+
+
+## 4. Blockchain Workflow
+
+1. Transaction requested and submitted to multisig.  
+2. At least 3 of 5 authorized signers approve transaction.  
+3. Transaction executed on the Celo blockchain using CELO or cUSD.  
+4. Transaction details automatically logged in proof-of-treasury report.  
+5. Community can verify each transaction through Celo blockchain explorers.
+
+
+
+## 5. General Guidelines
+
+- Signers strictly follow multisig approval and reporting procedures.  
+- Any structural or operational changes are publicly disclosed.  
+- Continuous monitoring of treasury activity for potential risks or anomalies.  
+- All operations maintain alignment with Celo blockchain standards, CELO/cUSD usage, and the three foundational pillars of CeloHT.
+
+
+
+## 6. Legal & Transparency Compliance
+- Treasury operations fully comply with **international financial and blockchain governance standards**.  
+- Legal oversight ensures adherence to global KYC/AML rules.  
+- All documentation and reports are maintained as **official public references** on GitHub.  
+- Designed to demonstrate operational integrity and accountability to the community.

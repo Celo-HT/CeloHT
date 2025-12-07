@@ -1,162 +1,158 @@
 ![Image](https://github.com/user-attachments/assets/8c59e434-db05-47e4-8e86-2d3d35d83af3)
+# CeloHT
 
-CeloHT is a blockchain platform designed to support the Haitian community through financial, educational, and reforestation solutions. It leverages CELO and cUSD to provide easy access, transparency, and security in the digital economy while promoting sustainable ecological practices.
 
+**CeloHT** is a community-driven initiative in Haiti focused on three core pillars:
 
+1. **Education** – teaching blockchain, Celo, and financial literacy  
+2. **Financial Services** – providing access to cUSD, CELO, and other financial tools  
+3. **Forestation & Sustainability** – supporting environmental initiatives  
 
-Overview
+CeloHT combines financial inclusion, education, and environmental responsibility to empower local communities.
 
-CeloHT creates a digital ecosystem based on three core pillars:
 
-Education – Provides resources on finance, entrepreneurship, and blockchain for local communities.
 
-Financial Inclusion – Enables digital transfers with cUSD and transactions verified on the blockchain.
+## Overview
 
-Reforestation – Promotes tree planting initiatives and supports local nurseries.
+CeloHT empowers Haitian communities through:
 
+- Educational programs on blockchain, crypto, and digital finance  
+- Transparent financial services and treasury management  
+- Sustainability projects focused on forestation and environmental care  
+- Community-driven governance aligned with international standards  
 
-All functionalities follow blockchain best practices and international standards for security, transparency, and scalability.
+**Contact:** celoht3@gmail.com  
+**Twitter:** [@CeloHt327](https://twitter.com/CeloHt327)
 
 
 
-Key Features
+## Mission
 
-Multi-wallet support: Integration with CELO and cUSD wallets.
+1. Provide reliable education on blockchain, Celo, cUSD, and Web3 fundamentals  
+2. Offer financial services to promote economic inclusion  
+3. Implement transparent treasury and governance systems  
+4. Support environmental and forestation initiatives  
+5. Build tools and resources that encourage adoption and empowerment
 
-Secure transactions: All transactions are verified on the blockchain.
 
-Education modules: Resources on finance, entrepreneurship, and blockchain.
 
-Environmental initiatives: Collaboration with local projects for reforestation.
+## Vision
 
-Audit-ready architecture: Modern coding structure ready for audits.
+A financially literate, digitally empowered, and environmentally responsible Haitian community leveraging blockchain technology for sustainable growth.
 
-International standard compliance: Follows global blockchain and security standards.
 
 
+## Key Facts
 
+- **Founded:** 2022 update 2025 
+- **Type:** Community-driven, financial services project  
+- **Core Pillars:** Education, Financial Services, Forestation  
+- **Official Logo:** `assets/logo.svg`  
+- **Email:** celoht3@gmail.com  
+- **Twitter:** [@CeloHt327](https://twitter.com/CeloHt327)  
 
-Installation
 
-Prerequisites:
+## Governance
 
-Rust >= 1.80 (backend)
+CeloHT uses a **multisig-based governance model**:
 
-Node.js >= 20 (frontend)
+- 5 signers, minimum 3 signatures required for treasury transactions  
+- Publicly listed signers with rotation policies  
+- Escalation and emergency procedures  
+- Monthly transparency reports  
+- Community oversight board  
 
-Access to Celo testnet/mainnet
+All decisions are documented and verifiable.
 
 
-Steps:
 
-# Clone repository
-git clone https://github.com/your-username/CeloHT.git
-cd CeloHT
+## Treasury & Financial Services
 
-# Build backend
-cargo build
+- Funds are held in a **multisig wallet**  
+- All transactions are verifiable on-chain  
+- Monthly financial and activity reports are published  
+- Scripts included for treasury verification and reporting  
 
-# Copy environment template
-cp .env.example .env
+CeloHT provides **financial services** responsibly, adhering to international standards.
 
-# Configure .env with Celo keys
-nano .env
 
 
+## Learning Hub
 
-Usage
+Educational content includes:
 
-Run locally (backend example):
+- Blockchain & crypto fundamentals  
+- Celo ecosystem: CELO, cUSD, Valora wallet  
+- Trading, risk management, and financial literacy  
+- Web3 security best practices  
+- Haitian-focused guides and tutorials  
 
-cargo run
 
-Testing:
 
-cargo test
+## Sustainability & Forestation
 
-Wallet integration:
+CeloHT contributes to environmental impact by:
 
-Add your Celo private keys to .env.
+- Funding and organizing local forestation projects  
+- Partnering with environmental organizations  
+- Promoting sustainability education in local communities  
 
-Use CELO/cUSD transfer functions verified on the blockchain.
 
 
-All CELO → cUSD calculations follow Celo API standards to ensure international accuracy.
+## Roadmap
 
+- **Q1 2025:** Establish governance, deploy multisig treasury, publish documentation  
+- **Q2 2025:** Launch Learning Hub v1, release educational content, first treasury report  
+- **Q3 2025:** Community workshops, sustainability projects, request external audit  
+- **Q4 2025:** Annual report, platform growth, team expansion  
 
 
 
-Roadmap
+## Team
 
-1. v1.0 – Core platform: CELO/cUSD transfers, education modules, reforestation support.
+CeloHT is led by experienced Haitian professionals in:
 
+- Engineering & Development  
+- Blockchain & Financial Services  
+- Governance & Compliance  
+- Education & Community Engagement  
+- Environmental & Sustainability Programs  
 
-2. v1.5 – Advanced wallet integration, improved UI/UX.
 
 
-3. v2.0 – Mobile application, analytics, automated ecological initiatives.
+## Legal Disclaimer
 
+CeloHT **provides financial services, educational programs, and sustainability initiatives**.  
+All financial activities are conducted transparently via multisig governance and blockchain verification.  
+Users are responsible for their own decisions.  
 
-4. v3.0 – Partnerships with local organizations to expand access and education.
 
 
+## Audit Requests
 
+- Templates available for governance, treasury, and operational audits  
+- All relevant documentation and scripts are provided for verification  
 
 
-Contributing
 
-We welcome international contributions:
+## Contributing
 
-Fork the repository.
+1. Fork the repository  
+2. Create a feature branch  
+3. Commit clear, descriptive changes  
+4. Open a Pull Request referencing issues  
+5. Follow code of conduct and contribution standards  
 
-Create a branch for your feature:
 
+## Contact
 
-git checkout -b feature/your-feature
-git commit -m "Add new feature"
-git push origin feature/your-feature
+- **Email:** celoht3@gmail.com  
+- **Twitter:** [@CeloHt327](https://twitter.com/CeloHt327)  
+ 
 
-Submit a pull request for review.
+## License
 
+MIT License — see LICENSE file for details.
 
-Guidelines:
-
-Follow Code of Conduct
-
-Report any vulnerabilities or bugs via SECURITY.md
-
-All contributions must follow international standards and blockchain best practices.
-
-
-
-
-Security
-
-Blockchain security protocols.
-
-CELO/cUSD transaction verification.
-
-Regular audits and documentation.
-
-Monitoring for fraud, errors, and potential attacks.
-
-
-
-
-
-License
-
-CeloHT uses the MIT License.
-
-
-
-
-Contact
-
-Email: celoht3@gmail.com
-
-Website: https://celoht.com
-
-Twitter: @CeloHt327
 
 

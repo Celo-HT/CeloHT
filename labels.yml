@@ -1,0 +1,60 @@
+# labels.yml – Labels pou CeloHT
+- name: bug
+  description: Technical errors or malfunctions
+  color: d73a4a
+
+- name: feature
+  description: New functionality requests
+  color: 0e8a16
+
+- name: enhancement
+  description: Improvements to existing features
+  color: a2eeef
+
+- name: documentation
+  description: Related to docs, guides, or tutorials
+  color: 0075ca
+
+- name: research
+  description: Research tasks or ideas
+  color: 5319e7
+
+- name: high priority
+  description: Must be addressed immediately
+  color: b60205
+
+- name: medium priority
+  description: Important but not urgent
+  color: dbab09
+
+- name: low priority
+  description: Non-urgent tasks
+  color: 0e8a16
+
+- name: in progress
+  description: Work is being done
+  color: 2188ff
+
+- name: review needed
+  description: Requires code review
+  color: 6f42c1
+
+- name: ready for testing
+  description: Ready to be tested
+  color: fbca04
+
+- name: done
+  description: Task completed
+  color: 0e8a16
+
+- name: education
+  description: Related to educational content or modules
+  color: ff7f50
+
+- name: agent
+  description: Related to financial agent services
+  color: 00bfff
+
+- name: forestation
+  description: Related to reforestation or environment
+  color: 228b22

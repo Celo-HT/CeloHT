@@ -1,0 +1,7 @@
+main                      <- Production branch, always stable
+dev                       <- Development branch integrating all features
+feature/education         <- Development for education modules
+feature/agent             <- Development for agent functionalities (cash in/out)
+feature/reforestation     <- Development for reforestation functionalities
+bugfix/101-ui-fix         <- Bug fix example
+hotfix/001-payment-patch  <- Hotfix example for production

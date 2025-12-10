@@ -1,4 +1,4 @@
-# CeloHT — About & Team
+# CeloHT About & Team
 
 ## About CeloHT
 

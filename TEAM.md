@@ -95,3 +95,5 @@ CeloHT follows international best practices inspired by leading blockchain organ
 
 - **Email:** celoht3@gmail.com  
 - **GitHub:** https://github.com/Celo-HT
+**Role:** Founder  
+[LinkedIn](https://ht.linkedin.com/in/johnny-dubic-590585218)

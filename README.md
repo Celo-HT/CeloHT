@@ -152,7 +152,7 @@ Users are responsible for their own decisions.
 
 ## License
 
-MIT License — see LICENSE file for details.
+MIT License see LICENSE file for details.
 
 
 

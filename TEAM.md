@@ -17,7 +17,7 @@ The organization operates under a **community governance model**, where members 
 
 ## Leadership
 
-### Johnny Dubic — Founder & Executive Director
+### Johnny Dubic  Founder & Executive Director
 
 **Johnny DUBIC is the founder of CeloHT and established the project's core vision and structure.**  
 He leads strategic development, governance oversight, and organizational alignment across all pillars of the project.  

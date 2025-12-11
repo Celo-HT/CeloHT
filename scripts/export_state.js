@@ -5,32 +5,43 @@ import axios from "axios";
 
 const API = "https://explorer.celo.org/mainnet/api";
 const KEY = process.env.CELO_EXPLORER_KEY;
+const TREASURY = process.env.CELOHT_TREASURY;
+
+if (!TREASURY) {
+  console.error("Missing CELOHT_TREASURY");
+  process.exit(1);
+}
+
+async function safeGet(url) {
+  try {
+    const r = await axios.get(url);
+    if (!r.data || !r.data.result) throw new Error("Invalid response");
+    return r.data.result;
+  } catch {
+    return [];
+  }
+}
 
 async function run() {
-  console.log("===> Exporting CELOHT Treasury Transactions");
+  console.log("===> EXPORT STATE CELOHT");
 
-  const treasury = process.env.CELOHT_TREASURY;
+  const celoTx = await safeGet(
+    `${API}?module=account&action=txlist&address=${TREASURY}&sort=asc&apikey=${KEY}`
+  );
 
-  // Normal CELO transactions
-  const celoTxs = (
-    await axios.get(
-      `${API}?module=account&action=txlist&address=${treasury}&sort=asc&apikey=${KEY}`
-    )
-  ).data;
+  const tokenTx = await safeGet(
+    `${API}?module=account&action=tokentx&address=${TREASURY}&sort=asc&apikey=${KEY}`
+  );
 
-  // ERC20 transactions (cUSD, cEUR, etc.)
-  const erc20Txs = (
-    await axios.get(
-      `${API}?module=account&action=tokentx&address=${treasury}&sort=asc&apikey=${KEY}`
-    )
-  ).data;
+  // Retire doublons Explorer
+  const uniqCelo = [...new Map(celoTx.map(x => [x.hash, x])).values()];
+  const uniqToken = [...new Map(tokenTx.map(x => [x.hash + x.tokenSymbol, x])).values()];
 
   fs.mkdirSync("exports", { recursive: true });
+  fs.writeFileSync("exports/celo.json", JSON.stringify(uniqCelo, null, 2));
+  fs.writeFileSync("exports/token.json", JSON.stringify(uniqToken, null, 2));
 
-  fs.writeFileSync("exports/celo_txs.json", JSON.stringify(celoTxs, null, 2));
-  fs.writeFileSync("exports/token_txs.json", JSON.stringify(erc20Txs, null, 2));
-
-  console.log("Export complete");
+  console.log("Export OK");
 }
 
 run();

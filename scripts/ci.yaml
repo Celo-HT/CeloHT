@@ -1,0 +1,47 @@
+name: CeloHT Reconciliation
+
+on:
+  schedule:
+    - cron: "0 */6 * * *"
+  workflow_dispatch:
+
+jobs:
+  reconcile:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - name: Setup Foundry
+        uses: foundry-rs/foundry-toolchain@v1
+        with:
+          version: nightly
+
+      - name: Install deps
+        run: npm install
+
+      - name: Snapshot
+        env:
+          CELOHT_TREASURY: ${{ secrets.CELOHT_TREASURY }}
+          CUSD: ${{ secrets.CUSD }}
+        run: bash snapshot.sh
+
+      - name: Export
+        env:
+          CELOHT_TREASURY: ${{ secrets.CELOHT_TREASURY }}
+          CELO_EXPLORER_KEY: ${{ secrets.CELO_EXPLORER_KEY }}
+        run: node export_state.js
+
+      - name: Reconcile
+        run: node reconcile.js
+
+      - name: Upload report
+        uses: actions/upload-artifact@v4
+        with:
+          name: reconciliation
+          path: reconciliation_report.json

@@ -64,7 +64,7 @@ CeloHT is an open-source project. Please see [LICENSE](LICENSE) for details.
 
 - Email: `contact@celoht.org` (celoht3@gmail.com )
 - Discord Community: [CeloHT Community](#)  
-- Twitter: [@CeloHT327](#)  
+- Twitter: [@CeloHt327](#)  
 
 
 ** Note:** CeloHT is an educational, agent, and ecological project utilizing Celo cUSD and Valora. It **does not provide financial advice**, and users assume all risks in their transactions.

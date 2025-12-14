@@ -1,158 +1,73 @@
 ![Image](https://github.com/user-attachments/assets/8c59e434-db05-47e4-8e86-2d3d35d83af3)
-# CeloHT
 
+[![License](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)  
+[![CeloHT Discord](https://img.shields.io/badge/Join-Discord-7289DA?logo=discord)](#)  
+[![Twitter](https://img.shields.io/badge/Follow-Twitter-1DA1F2?logo=twitter)](#)
 
-**CeloHT** is a community-driven initiative in Haiti focused on three core pillars:
-
-1. **Education** – teaching blockchain, Celo, and financial literacy  
-2. **Financial Services** – providing access to cUSD, CELO, and other financial tools  
-3. **Forestation & Sustainability** – supporting environmental initiatives  
-
-CeloHT combines financial inclusion, education, and environmental responsibility to empower local communities.
+**CeloHT** is a community-driven initiative in Haitibuilt on **three core pillars**: **Education**, **Agents**, and **Reforestation**, utilizing **Celo cUSD** and **Valora** to facilitate transactions and support the community.
 
 
 
-## Overview
+##  Project Goals
 
-CeloHT empowers Haitian communities through:
-
-- Educational programs on blockchain, crypto, and digital finance  
-- Transparent financial services and treasury management  
-- Sustainability projects focused on forestation and environmental care  
-- Community-driven governance aligned with international standards  
-
-**Contact:** celoht3@gmail.com  
-**Twitter:** [@CeloHt327](https://twitter.com/CeloHt327)
+- **Education:** Promote financial and crypto literacy for the Haitian and international communities.  
+- **Agents:** Build a network of agents to assist users with transactions and the CeloHT application.  
+- **Reforestation:** Support ecological initiatives through tree planting and environmental projects.  
 
 
+## Technology Stack
 
-## Mission
-
-1. Provide reliable education on blockchain, Celo, cUSD, and Web3 fundamentals  
-2. Offer financial services to promote economic inclusion  
-3. Implement transparent treasury and governance systems  
-4. Support environmental and forestation initiatives  
-5. Build tools and resources that encourage adoption and empowerment
+- **Blockchain:** Celo  
+- **Stable Token:** cUSD  
+- **Mobile Wallet:** Valora  
+- **Smart Contracts:** Solidity (for dApps and decentralized logic)  
 
 
 
-## Vision
+## Features
 
-A financially literate, digitally empowered, and environmentally responsible Haitian community leveraging blockchain technology for sustainable growth.
-
-
-
-## Key Facts
-
-- **Founded:** 2022 update 2025 
-- **Type:** Community-driven, financial services project  
-- **Core Pillars:** Education, Financial Services, Forestation  
-- **Official Logo:** `assets/logo.svg`  
-- **Email:** celoht3@gmail.com  
-- **Twitter:** [@CeloHt327](https://twitter.com/CeloHt327)  
+- **Decentralization:** Governed by an active community, not a single entity.  
+- **Security:** Implements Web3 best practices and security tools to protect user funds and data.  
+- **Transparency:** All transactions are publicly verifiable on the blockchain.  
+- **Community Impact:** Focused on education, access, and social/environmental impact via the three pillars.
 
 
 ## Governance
 
-CeloHT uses a **multisig-based governance model**:
-
-- 5 signers, minimum 3 signatures required for treasury transactions  
-- Publicly listed signers with rotation policies  
-- Escalation and emergency procedures  
-- Monthly transparency reports  
-- Community oversight board  
-
-All decisions are documented and verifiable.
+CeloHT is managed by a **decentralized committee** that makes decisions on project development and resource allocation. The founder is **Johnny Dubic**, but the community can vote and influence the project direction.
 
 
+## Getting Started
 
-## Treasury & Financial Services
-
-- Funds are held in a **multisig wallet**  
-- All transactions are verifiable on-chain  
-- Monthly financial and activity reports are published  
-- Scripts included for treasury verification and reporting  
-
-CeloHT provides **financial services** responsibly, adhering to international standards.
+1. Install the **[Valora Wallet](https://valoraapp.com/)** on your mobile device.  
+2. Buy or transfer **cUSD** into Valora.  
+3. Access the **[CeloHT dApp](in process)** to connect and participate in the community through the project’s three pillars.  
 
 
+## Contribution
 
-## Learning Hub
+Community contributions are welcome:  
+- Report bugs or security issues  
+- Develop new features for the dApp  
+- Promote the project locally and internationally  
 
-Educational content includes:
-
-- Blockchain & crypto fundamentals  
-- Celo ecosystem: CELO, cUSD, Valora wallet  
-- Trading, risk management, and financial literacy  
-- Web3 security best practices  
-- Haitian-focused guides and tutorials  
+To contribute, please fork the repository and submit a pull request.
 
 
+## License
 
-## Sustainability & Forestation
+CeloHT is an open-source project. Please see [LICENSE](LICENSE) for details.
 
-CeloHT contributes to environmental impact by:
-
-- Funding and organizing local forestation projects  
-- Partnering with environmental organizations  
-- Promoting sustainability education in local communities  
-
-
-
-## Roadmap
-
-- **Q1 2025:** Establish governance, deploy multisig treasury, publish documentation  
-- **Q2 2025:** Launch Learning Hub v1, release educational content, first treasury report  
-- **Q3 2025:** Community workshops, sustainability projects, request external audit  
-- **Q4 2025:** Annual report, platform growth, team expansion  
-
-
-
-## Team
-
-CeloHT is led by experienced Haitian professionals in:
-
-- Engineering & Development  
-- Blockchain & Financial Services  
-- Governance & Compliance  
-- Education & Community Engagement  
-- Environmental & Sustainability Programs  
-
-
-
-## Legal Disclaimer
-
-CeloHT **provides financial services, educational programs, and sustainability initiatives**.  
-All financial activities are conducted transparently via multisig governance and blockchain verification.  
-Users are responsible for their own decisions.  
-
-
-
-## Audit Requests
-
-- Templates available for governance, treasury, and operational audits  
-- All relevant documentation and scripts are provided for verification  
-
-
-
-## Contributing
-
-1. Fork the repository  
-2. Create a feature branch  
-3. Commit clear, descriptive changes  
-4. Open a Pull Request referencing issues  
-5. Follow code of conduct and contribution standards  
 
 
 ## Contact
 
-- **Email:** celoht3@gmail.com  
-- **Twitter:** [@CeloHt327](https://twitter.com/CeloHt327)  
- 
+- Email: `contact@celoht.org` (celoht3@gmail.com )
+- Discord Community: [CeloHT Community](#)  
+- Twitter: [@CeloHT327](#)  
 
-## License
 
-MIT License see LICENSE file for details.
+** Note:** CeloHT is an educational, agent, and ecological project utilizing Celo cUSD and Valora. It **does not provide financial advice**, and users assume all risks in their transactions.
 
 
 

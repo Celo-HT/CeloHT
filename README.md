@@ -63,7 +63,7 @@ CeloHT is an open-source project. Please see [LICENSE](LICENSE) for details.
 ## Contact
 
 - Email: `contact@celoht.org` (celoht3@gmail.com )
-- Discord Community: [CeloHT Community](#)  
+- Discord Community: [https://discord.gg/Xcx6c9bBD2](#)  
 - Twitter: [@CeloHt327](#)  
 
 

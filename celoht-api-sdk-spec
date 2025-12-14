@@ -1,0 +1,180 @@
+# CELOHT API + SDK SPECIFICATION
+**Version:** 1.0  
+**Standard:** EVM / Celo Protocol / WalletConnect v2  
+**Scope:** Education · Agents · Reforestation  
+**Assets:** CELO (gas) · cUSD (value) · Valora (wallet)
+
+
+## 1. ARCHITECTURE STANDARD
+
+CeloHT adopts a **non-custodial, client-side signing architecture**.
+
+- **Blockchain Layer:** Celo Mainnet  
+- **Value Layer:** cUSD (ERC-20 on Celo)  
+- **Gas Layer:** CELO  
+- **Wallet Layer:** Valora (WalletConnect)  
+- **API Layer:** JSON-RPC (EVM standard)  
+- **SDK Layer:** Celo ContractKit + Ethers Wrapper  
+
+CeloHT **does not store**, **does not hold**, and **does not control** user funds.
+
+
+## 2. API LAYER (JSON-RPC – EVM STANDARD)
+
+### Protocol
+- JSON-RPC 2.0
+- HTTPS / WebSocket
+- Stateless
+- Idempotent read methods
+
+### Supported Standards
+- `eth_*`
+- `net_*`
+- `web3_*`
+- ERC-20 ABI calls
+
+### Required Capabilities
+- Read blockchain state
+- Submit signed transactions
+- Query balances (CELO, cUSD)
+- Verify transaction finality
+
+### Compliance
+- Ethereum JSON-RPC Specification
+- Celo EVM extensions
+- No proprietary methods
+
+
+## 3. SDK LAYER (APPLICATION INTERFACE)
+
+### Primary SDK
+**@celo/contractkit**
+
+Responsibilities:
+- Network abstraction
+- Gas currency handling (CELO / cUSD)
+- Contract registry resolution
+- Account abstraction
+
+### Secondary SDK
+**@celo-tools/celo-ethers-wrapper**
+
+Responsibilities:
+- Ethers.js compatibility
+- Wallet-agnostic contract calls
+- WalletConnect interoperability
+
+### SDK RULES
+- Client-side signing only
+- No private key storage
+- Deterministic contract interaction
+- Reproducible transaction construction
+
+
+## 4. WALLET INTEGRATION (VALORA)
+
+### Standard
+- WalletConnect v2
+- EIP-1193 Provider Interface
+
+### Capabilities
+- Account connection
+- Transaction signing
+- Token approval
+- Gas payment via CELO
+
+### Restrictions
+- No wallet custody
+- No off-chain balance manipulation
+- No session hijacking
+
+Valora is treated as an **external sovereign wallet**, not a subsystem.
+
+
+## 5. ASSET POLICY
+
+### CELO
+- Usage: gas fees only
+- Not marketed
+- Not redistributed
+- Not custody-held
+
+### cUSD
+- Primary unit of value
+- Used for:
+  - Education payments
+  - Agent incentives
+  - Reforestation tracking
+- ERC-20 compliant
+
+
+
+## 6. FUNCTIONAL DOMAINS (3 PILLARS)
+
+### A. EDUCATION
+- On-chain verification of completion
+- cUSD reference pricing
+- No certificates as tokens
+- No speculative incentives
+
+### B. AGENTS
+- Peer-to-peer facilitation
+- Agent wallets are personal wallets
+- Transparent fees
+- No pooling of funds
+
+### C. REFORESTATION
+- cUSD-tagged transactions
+- On-chain proof of funding
+- Off-chain impact verification
+- No carbon token issuance
+
+
+## 7. SECURITY & COMPLIANCE
+
+### Security
+- Non-custodial by design
+- Zero private key handling
+- Deterministic contract calls
+- Replay protection (chainId)
+
+### Legal Position
+- Not a bank
+- Not an investment platform
+
+### Auditability
+- Public smart contracts
+- Verifiable on-chain transactions
+- Open-source SDK usage
+- Deterministic logic
+
+
+
+## 8. INTEROPERABILITY
+
+- EVM compatible
+- Wallet-agnostic
+- Provider-agnostic
+- Chain-specific (Celo only)
+
+
+
+## 9. EXCLUSIONS (EXPLICIT)
+
+CeloHT does **NOT** provide:
+- Custodial wallets
+- Token issuance
+- Yield, staking, or rewards
+- Fiat on/off-ramps
+- Investment advice
+- Fund management
+
+
+## 10. STATUS
+
+This API + SDK specification is:
+- Production-grade
+- Audit-ready
+- GitHub-ready
+- Partner-ready
+- Institution-safe

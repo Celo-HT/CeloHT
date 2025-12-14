@@ -1,4 +1,4 @@
-# KYC/AML REPORT – CELOHT
+# KYC/AML REPORT CELOHT
 
 ## 1. Entity Identification
 **Name:** CeloHT  

@@ -1,3 +1,52 @@
-<p align="center">
-  <img src="assets/logo.png" alt="CeloHT Logo" width="220"/>
-</p>
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="512" height="512" viewBox="0 0 512 512"
+     xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Background (transparent for GitHub) -->
+  <defs>
+    <linearGradient id="blueGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#1f4f7a"/>
+      <stop offset="100%" stop-color="#0b2236"/>
+    </linearGradient>
+
+    <linearGradient id="goldGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#ffd84d"/>
+      <stop offset="100%" stop-color="#f4b400"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Letter C -->
+  <path
+    d="M256 48
+       C140 48 48 140 48 256
+       C48 372 140 464 256 464
+       C300 464 340 452 372 432
+       L336 368
+       C312 384 284 392 256 392
+       C180 392 120 332 120 256
+       C120 180 180 120 256 120
+       C284 120 312 128 336 144
+       L372 80
+       C340 60 300 48 256 48 Z"
+    fill="url(#blueGrad)"/>
+
+  <!-- Bar chart -->
+  <rect x="210" y="300" width="32" height="72" fill="#0b2236"/>
+  <rect x="250" y="260" width="32" height="112" fill="#0b2236"/>
+  <rect x="290" y="220" width="32" height="152" fill="#0b2236"/>
+
+  <!-- Growth arrow -->
+  <path
+    d="M190 260
+       L250 220
+       L300 260
+       L350 210
+       L350 250
+       L390 190
+       L350 130
+       L350 170
+       L300 220
+       L250 180
+       L190 220 Z"
+    fill="url(#goldGrad)"/>
+</svg>

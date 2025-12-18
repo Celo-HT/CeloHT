@@ -1,0 +1,197 @@
+import { JsonRpcProvider, Wallet, Contract, TransactionResponse } from "ethers";
+
+/* ================= UTILITIES ================= */
+
+function assert(cond: boolean, code: string): void {
+  if (!cond) throw new Error(code);
+}
+
+function isAddress(a: string): boolean {
+  return /^0x[a-fA-F0-9]{40}$/.test(a);
+}
+
+/* ================= LOGGER ================= */
+
+class Logger {
+  log(event: string, data?: unknown) {
+    console.log(JSON.stringify({ ts: Date.now(), event, data }));
+  }
+  error(event: string, data?: unknown) {
+    console.error(JSON.stringify({ ts: Date.now(), level: "error", event, data }));
+  }
+}
+
+const logger = new Logger();
+
+/* ================= SIGNER ================= */
+
+interface SignerProvider {
+  getWallet(provider: JsonRpcProvider): Wallet;
+}
+
+class EnvSigner implements SignerProvider {
+  getWallet(provider: JsonRpcProvider): Wallet {
+    const pk = process.env.PRIVATE_KEY;
+    assert(!!pk, "PRIVATE_KEY_MISSING");
+    return new Wallet(pk!, provider);
+  }
+}
+
+/* ================= CORE ================= */
+
+class CeloHTCore {
+  readonly provider: JsonRpcProvider;
+  readonly wallet: Wallet;
+  readonly chainId: number;
+
+  constructor(rpcUrl: string, chainId: number, signer: SignerProvider) {
+    assert(!!rpcUrl, "RPC_MISSING");
+    this.provider = new JsonRpcProvider(rpcUrl);
+    this.chainId = chainId;
+    this.wallet = signer.getWallet(this.provider);
+  }
+
+  async verifyChain(): Promise<void> {
+    const net = await this.provider.getNetwork();
+    assert(Number(net.chainId) === this.chainId, "CHAIN_MISMATCH");
+  }
+}
+
+/* ================= ANTI-ABUSE ================= */
+
+class AntiAbuse {
+  private hits = new Map<string, number[]>();
+
+  check(key: string, limit: number, windowMs: number, enabled: boolean) {
+    if (!enabled) return;
+    const now = Date.now();
+    const list = this.hits.get(key) || [];
+    const valid = list.filter(t => now - t < windowMs);
+    assert(valid.length < limit, "ABUSE_DETECTED");
+    valid.push(now);
+    this.hits.set(key, valid);
+  }
+}
+
+const antiAbuse = new AntiAbuse();
+
+/* ================= PERMISSIONS ================= */
+
+class Permissions {
+  private allowed = new Map<string, number>();
+
+  authorize(addr: string) {
+    assert(isAddress(addr), "INVALID_ADDRESS");
+    this.allowed.set(addr.toLowerCase(), Date.now());
+    logger.log("permission_granted", addr);
+  }
+
+  isAuthorized(addr: string): boolean {
+    return this.allowed.has(addr.toLowerCase());
+  }
+}
+
+/* ================= EDUCATION ================= */
+
+interface Course { id: number; title: string; reward: bigint; active: boolean }
+
+class EducationModule {
+  private courses = new Map<number, Course>();
+
+  constructor(private perms: Permissions, private protectedMode: boolean) {}
+
+  create(course: Course, caller: string) {
+    antiAbuse.check(caller, 10, 60000, this.protectedMode);
+    assert(this.perms.isAuthorized(caller), "UNAUTHORIZED");
+    assert(!this.courses.has(course.id), "COURSE_EXISTS");
+    this.courses.set(course.id, course);
+    logger.log("course_created", course);
+  }
+
+  list(): Course[] {
+    return [...this.courses.values()].filter(c => c.active);
+  }
+}
+
+/* ================= REFORESTATION ================= */
+
+interface TreeAction { wallet: string; trees: number; timestamp: number }
+
+class ReforestationModule {
+  private actions: TreeAction[] = [];
+
+  constructor(private protectedMode: boolean) {}
+
+  record(a: TreeAction) {
+    antiAbuse.check(a.wallet, 20, 60000, this.protectedMode);
+    assert(isAddress(a.wallet), "INVALID_WALLET");
+    assert(a.trees > 0, "INVALID_TREE_COUNT");
+    this.actions.push(a);
+    logger.log("tree_action", a);
+  }
+
+  totalTrees(): number {
+    return this.actions.reduce((s, a) => s + a.trees, 0);
+  }
+}
+
+/* ================= PAYMENTS ================= */
+
+const CUSD_ABI = ["function transfer(address,uint256) returns (bool)"];
+
+class NonceManager {
+  private nonce?: number;
+  async next(wallet: Wallet): Promise<number> {
+    if (this.nonce === undefined) this.nonce = await wallet.getNonce();
+    return this.nonce++;
+  }
+}
+
+class PaymentsModule {
+  private contract: Contract;
+  private nonceMgr = new NonceManager();
+
+  constructor(private core: CeloHTCore, cusd: string, private protectedMode: boolean) {
+    assert(isAddress(cusd), "INVALID_CUSD");
+    this.contract = new Contract(cusd, CUSD_ABI, core.wallet);
+  }
+
+  async transfer(to: string, amount: bigint): Promise<string> {
+    antiAbuse.check(to, 5, 60000, this.protectedMode);
+    assert(isAddress(to), "INVALID_TO");
+    assert(amount > 0n, "INVALID_AMOUNT");
+
+    const nonce = await this.nonceMgr.next(this.core.wallet);
+    const tx: TransactionResponse = await this.contract.transfer(to, amount, { nonce });
+    const receipt = await tx.wait();
+    assert(receipt.status === 1, "TX_FAILED");
+    logger.log("payment", { to, amount, hash: receipt.hash });
+    return receipt.hash;
+  }
+}
+
+/* ================= FACTORY ================= */
+
+export async function createCeloHTSDK(cfg: {
+  rpcUrl: string;
+  chainId: number;
+  cusdAddress: string;
+  mode: "UNLIMITED" | "PROTECTED";
+}) {
+  const signer = new EnvSigner();
+  const core = new CeloHTCore(cfg.rpcUrl, cfg.chainId, signer);
+  await core.verifyChain();
+
+  const protectedMode = cfg.mode === "PROTECTED";
+
+  const perms = new Permissions();
+  perms.authorize(core.wallet.address);
+
+  return {
+    core,
+    permissions: perms,
+    education: new EducationModule(perms, protectedMode),
+    reforestation: new ReforestationModule(protectedMode),
+    payments: new PaymentsModule(core, cfg.cusdAddress, protectedMode)
+  };
+}

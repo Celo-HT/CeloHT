@@ -1,5 +1,6 @@
 # GOVERNANCE.md
-## CeloHT — Governance Framework
+## CeloHT 
+ Governance Framework
 
 ### 1. Principles
 CeloHT governance is founded on transparency, accountability, decentralization, and community oversight.

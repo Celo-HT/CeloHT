@@ -4,7 +4,7 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)  
 [![GitHub stars](https://img.shields.io/github/stars/yourusername/CeloHT)](https://github.com/yourusername/CeloHT/stargazers)
 
----
+
 
 ## Table of Contents
 1. [Overview](#overview)
@@ -19,7 +19,7 @@
 7. [Next Steps](#next-steps)
 8. [Contact & Contribution](#contact--contribution)
 
----
+
 
 ## Overview
 CeloHT is a **Web3 NGO** building a sustainable ecosystem focused on:
@@ -31,7 +31,7 @@ CeloHT is a **Web3 NGO** building a sustainable ecosystem focused on:
 All operations use **Celo cUSD via the Valora app**, ensuring transparency, stability, and accessibility.  
 **CeloHT is not a token or cryptocurrency project**; its focus is on practical, real-world impact.
 
----
+
 
 ## Core Pillars
 
@@ -56,7 +56,7 @@ All operations use **Celo cUSD via the Valora app**, ensuring transparency, stab
 - Facilitate **B2B services** and NGO partnerships for financial inclusion.  
 - Backup plan: Explore additional stablecoins or payment apps if Valora faces operational issues.
 
----
+
 
 ## Revenue Streams
 
@@ -72,7 +72,7 @@ All operations use **Celo cUSD via the Valora app**, ensuring transparency, stab
    - Development grants, CSR programs, and government contracts.  
    - Reduces reliance on donations alone.
 
----
+
 
 ## Sustainability & Risk Management
 - **Financial sustainability:** Monthly monitoring of transactions vs operational costs.  
@@ -80,7 +80,7 @@ All operations use **Celo cUSD via the Valora app**, ensuring transparency, stab
 - **Regulatory compliance:** Align with local financial regulations; maintain documentation for grants.  
 - **Impact verification:** Third-party auditors for environmental projects; transparent dashboards updated quarterly.
 
----
+
 
 ## Community Explanation
 
@@ -98,7 +98,7 @@ All operations use **Celo cUSD via the Valora app**, ensuring transparency, stab
 - All transactions conducted in **cUSD via Valora**.  
 - Focus on real-world utility, not speculation.
 
----
+
 
 ## Implementation Notes
 - Transactions executed via **Valora / cUSD** for stability and accessibility.  
@@ -106,7 +106,7 @@ All operations use **Celo cUSD via the Valora app**, ensuring transparency, stab
 - Transparent dashboards maintained on GitHub to strengthen community trust.  
 - Include KPIs and monthly metrics for accountability.
 
----
+
 
 ## Next Steps
 1. Finalize MVP integrating all three pillars.  
@@ -117,7 +117,7 @@ All operations use **Celo cUSD via the Valora app**, ensuring transparency, stab
 6. Implement third-party verification for reforestation impact.  
 7. Prepare contingency plans for payment disruptions or regulatory changes.
 
----
+
 
 ## Contact & Contribution
 - **Website:** [www.celoht.com](https://www.celoht.com)  

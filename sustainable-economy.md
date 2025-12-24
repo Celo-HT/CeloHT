@@ -1,6 +1,6 @@
 # CeloHT Sustainable Economy & Project Model
 
-CeloHT is a Web3 initiative leveraging the Celo blockchain to create a sustainable economic ecosystem for underserved communities. The model integrates three core pillars—Financial Education, Measurable Reforestation, and Celo (cUSD + Valora)—to drive social, environmental, and financial impact.
+CeloHT is a Web3 initiative leveraging the Celo blockchain to create a sustainable economic ecosystem for underserved communities. The model integrates three core pillars Financial Education, Measurable Reforestation, and Celo (cUSD + Valora) to drive social, environmental, and financial impact.
 
 ---
 

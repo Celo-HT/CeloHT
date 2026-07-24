@@ -11,10 +11,10 @@ human processes (the agent network, training programs).
 
 ### 1. Financial Infrastructure Layer (external)
 
-- **Celo** — the public, permissionless base chain
-- **cUSD** — a stablecoin for everyday transactions
-- **CELO** — the native token, used for governance and network fees
-- **Valora** — the mobile wallet that makes interacting with the network practical
+- **Celo** - the public, permissionless base chain
+- **cUSD** - a stablecoin for everyday transactions
+- **CELO** - the native token, used for governance and network fees
+- **Valora** - the mobile wallet that makes interacting with the network practical
 
 CeloHT doesn't operate any of this infrastructure. We build the education
 and community process that makes it accessible.

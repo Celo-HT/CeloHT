@@ -2,7 +2,7 @@
 
 ## Current Status
 
-This flagship repository is a governance and documentation hub — it doesn't
+This flagship repository is a governance and documentation hub it doesn't
 expose any production API itself. This document describes the external APIs
 that CeloHT's training material refers to.
 
@@ -22,8 +22,8 @@ end user, not how to integrate with it programmatically.
 
 ## Future Internal APIs
 
-If CeloHT builds internal tooling — say, an agent or reforestation tracking
-dashboard — it will be documented here, including:
+If CeloHT builds internal tooling say, an agent or reforestation tracking
+dashboard it will be documented here, including:
 
 - Endpoints and HTTP methods
 - Request/response formats

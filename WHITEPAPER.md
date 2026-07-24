@@ -5,7 +5,7 @@
 <div align="center">
 
 **Version 1.0**
-**Published:** July 2026
+**Published:** July 2025
 **License:** Content licensed for reference; code under [Apache 2.0](LICENSE)
 **Maintained by:** CeloHT Contributors [github.com/celo-ht/celoht](https://github.com/celo-ht/celoht)
 

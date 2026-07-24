@@ -28,5 +28,5 @@ respond, and report it to conduct@celoht.com.
 ## Community
 
 For public discussion, use [GitHub Discussions](https://github.com/celo-ht/celoht/discussions)
-instead of private email when possible — it helps other people with the
+instead of private email when possible it helps other people with the
 same question.

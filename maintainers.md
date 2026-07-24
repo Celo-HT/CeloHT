@@ -17,7 +17,7 @@
 | Johnny Dubic | Foundation Director | [@CeloHtOfficial](https://twitter.com/CeloHtOfficial) |
 
 > This list grows as the community grows. See [`CONTRIBUTING.md`](../CONTRIBUTING.md)
-> for how to become a regular contributor — the first step toward a
+> for how to become a regular contributor the first step toward a
 > maintainer role.
 
 ## Becoming a Maintainer

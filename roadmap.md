@@ -2,7 +2,7 @@
 
 For a quick summary, see [`ROADMAP.md`](../ROADMAP.md) at the repository root.
 
-## Phase 1 — Foundation (2026, Q2–Q3)
+## Phase 1 - Foundation (2022, Q2–Q3)
 
 **Goal**: establish a solid base for operations and governance.
 
@@ -13,7 +13,7 @@ For a quick summary, see [`ROADMAP.md`](../ROADMAP.md) at the repository root.
 
 **Success metrics**: 3–5 active agents, 100+ people completing basic training.
 
-## Phase 2 — Validation (2026 Q4 – 2027 Q1)
+## Phase 2 - Validation (2025 Q4 – 2027 Q1)
 
 **Goal**: validate the model in a pilot area before expanding.
 
@@ -42,5 +42,5 @@ first trees planted and tracked.
 
 ## Dependencies Between Phases
 
-Each phase depends on the previous one being validated — we're not rushing
+Each phase depends on the previous one being validated we're not rushing
 geographic expansion ahead of proving the operational model works locally.

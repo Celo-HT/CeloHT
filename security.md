@@ -17,7 +17,7 @@ CeloHT takes a layered approach to security:
 ## What This Repository Doesn't Cover
 
 This repository doesn't manage the security of the Celo protocol itself, or
-of the Valora app — those fall to their respective teams. For issues
+of the Valora app those fall to their respective teams. For issues
 specific to that infrastructure, we point users to the official Celo and
 Valora security channels.
 

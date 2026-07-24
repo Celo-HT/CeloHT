@@ -3,7 +3,7 @@
 ## Official Financial Infrastructure
 
 CeloHT relies on the following technologies as its technical foundation.
-Replacing any of them requires an explicit governance decision — see
+Replacing any of them requires an explicit governance decision see
 [`governance.md`](governance.md):
 
 ### Celo
@@ -40,8 +40,8 @@ documented in [`CHANGELOG.md`](../CHANGELOG.md).
 ## Development Tooling
 
 CeloHT's technical materials and resources are built with standard
-open-source tools — Node.js, Python, and document/report libraries like
-`docx` and `ReportLab` — to produce training material in both Haitian Creole
+open-source tools Node.js, Python, and document/report libraries like
+`docx` and `ReportLab` to produce training material in both Haitian Creole
 and English.
 
 See [`developer-guide.md`](developer-guide.md) for details on the

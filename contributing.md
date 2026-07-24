@@ -1,7 +1,7 @@
 # Contributing (Documentation Summary)
 
 For the full contribution guide, see [`CONTRIBUTING.md`](../CONTRIBUTING.md)
-at the root of the repository — it covers the Pull Request process, quality
+at the root of the repository it covers the Pull Request process, quality
 standards, and commit message format.
 
 ## Quick Ways to Contribute

@@ -7,7 +7,7 @@
 **Version 1.0**
 **Published:** July 2026
 **License:** Content licensed for reference; code under [Apache 2.0](LICENSE)
-**Maintained by:** CeloHT Contributors — [github.com/celo-ht/celoht](https://github.com/celo-ht/celoht)
+**Maintained by:** CeloHT Contributors [github.com/celo-ht/celoht](https://github.com/celo-ht/celoht)
 
 </div>
 
@@ -69,8 +69,8 @@
 CeloHT is a community-driven, open-source initiative founded in Léogâne,
 Haiti, built to expand financial inclusion through three permanent pillars:
 **Education**, an **Agent Network**, and **Reforestation**. It is built on
-top of the Celo ecosystem — using CELO and cUSD where appropriate, and
-developing applications compatible with the Valora wallet — but CeloHT is
+top of the Celo ecosystem using CELO and cUSD where appropriate, and
+developing applications compatible with the Valora wallet but CeloHT is
 not itself a blockchain, a cryptocurrency, a token, or an investment
 platform.
 
@@ -79,7 +79,7 @@ semi-rural population has limited access to traditional banking while
 mobile phone penetration continues to grow. Rather than treating that gap
 as a technology problem alone, CeloHT treats it as an education problem
 first, a trust and access problem second, and an environmental problem
-third — all three connected, none of them optional.
+third all three connected, none of them optional.
 
 This whitepaper documents CeloHT's vision, mission, and the reasoning
 behind its approach; the operational detail behind each of the three
@@ -112,7 +112,7 @@ updated as the initiative matures — not as a static pitch.
 
 ## 2. Vision
 
-CeloHT's long-term vision is a Haiti — and, over time, a wider Caribbean —
+CeloHT's long-term vision is a Haiti and, over time, a wider Caribbean
 where geographic distance from a bank branch no longer determines whether
 someone can save, transact, or transfer money safely. A place where mobile
 financial tools are used with genuine understanding rather than blind
@@ -124,14 +124,14 @@ This vision rests on three observations that shaped CeloHT from the start:
 1. **Mobile reach already exceeds banking reach** in much of rural Haiti.
    Where a bank branch is hours away, a phone signal often isn't.
 2. **Access without understanding is a liability, not a benefit.** Handing
-   someone a financial tool they don't understand creates new risks —
-   scams, mismanagement, loss of funds — instead of solving old ones.
+   someone a financial tool they don't understand creates new risks
+   scams, mismanagement, loss of funds instead of solving old ones.
 3. **Financial development and environmental health are not separate
    tracks.** Communities whose economic security depends on land and
    agriculture cannot be served by an initiative that ignores deforestation.
 
 By 2030, CeloHT aims to have measurably shifted these three realities in
-the communities it serves — not through a single large deployment, but
+the communities it serves not through a single large deployment, but
 through a growing network of trained agents, educated participants, and
 verified reforestation activity, expanding one validated region at a time.
 
@@ -161,7 +161,7 @@ operating mission, and [Chapter 25](#25-roadmap) for the phased plan.
 
 **CeloHT's mission is to expand financial inclusion through education, a
 decentralized network of community agents, and environmental reforestation
-— built on the Celo ecosystem as its technical foundation.**
+built on the Celo ecosystem as its technical foundation.**
 
 This mission statement is deliberately ordered. Education is named first
 because CeloHT treats it as a prerequisite, not a companion feature. The
@@ -178,7 +178,7 @@ economic security of the same communities the first two pillars serve.
 | Education | Creole-language curriculum covering financial literacy, blockchain/Web3 fundamentals, and hands-on Valora/cUSD use, delivered before any tool is introduced |
 | Agent Network | Trained community members who facilitate cash-in/cash-out, transfers, and local support |
 | Reforestation | Coordinated tree-planting tied to verified activity and rewarded through cUSD |
-| Technical Foundation | Celo, CELO, cUSD, and Valora-compatible tooling — used, not owned, by CeloHT |
+| Technical Foundation | Celo, CELO, cUSD, and Valora-compatible tooling used, not owned, by CeloHT |
 
 ### Who the Mission Serves
 
@@ -193,7 +193,7 @@ infrastructure and rising mobile connectivity.
 ## 4. Why CeloHT Exists
 
 CeloHT exists because financial inclusion efforts often fail at the last
-mile — not because the technology doesn't work, but because it arrives
+mile not because the technology doesn't work, but because it arrives
 without the trust, language, and understanding a community needs to use it
 safely. Haiti, like many countries with large unbanked and underbanked
 populations, has seen fintech and crypto projects come and go, frequently
@@ -230,7 +230,7 @@ CeloHT was built as a direct, deliberate correction to that pattern:
 | A DeFi protocol | CeloHT does not operate lending, liquidity, or yield-generating smart contracts |
 | An owner or operator of Valora | CeloHT builds *compatible* tools; Valora is developed and operated independently |
 
-This distinction is not a legal formality — it is central to how CeloHT
+This distinction is not a legal formality it is central to how CeloHT
 designs every program, writes every piece of documentation, and trains every
 agent. See [Chapter 20](#20-security) and [`docs/legal-status.md`](docs/legal-status.md)
 for how this principle is enforced in practice.
@@ -246,7 +246,7 @@ the communities it serves.
 
 Bank branches are concentrated in urban centers. For a significant share of
 rural and semi-rural households, reaching a branch means real travel time
-and cost — often more than the transaction itself is worth.
+and cost often more than the transaction itself is worth.
 
 ### 5.2 Rising Mobile Connectivity Without Matching Financial Literacy
 
@@ -258,7 +258,7 @@ them safely does.
 ### 5.3 Language as a Barrier, Not Just a Detail
 
 Most financial and blockchain education material available today is
-written in English or French, not Haitian Creole — the language most
+written in English or French, not Haitian Creole the language most
 Haitians actually think and transact in. A translated afterthought is not
 the same as material designed in the language from the start.
 
@@ -315,7 +315,7 @@ flowchart TB
 ```
 
 Each pillar is described in full detail in Chapters 8 through 10. The
-supporting digital ecosystem — the official website and dApp — is covered
+supporting digital ecosystem the official website and dApp is covered
 in Chapters 11 through 13. What matters at a summary level is this: CeloHT
 does not treat any single pillar, or any single piece of software, as the
 solution on its own. The solution is the combination, applied consistently,
@@ -335,7 +335,7 @@ over time, in one validated community before the next.
 | **Financial honesty** | CeloHT never promises returns and never gives personal financial advice |
 | **Continuous learning** | Programs are adjusted based on what actually works in the field, not on what looks good on paper |
 
-These values are not aspirational language — they are enforced through
+These values are not aspirational language they are enforced through
 concrete mechanisms: mandatory review of financial claims in documentation
 (see [`CODEOWNERS`](CODEOWNERS)), a public governance process, and an
 explicit "what CeloHT is not" statement repeated throughout this document
@@ -347,7 +347,7 @@ and the repository.
 
 Education is the entry point to every CeloHT program. No participant is
 introduced to a wallet, a stablecoin, or an agent transaction without first
-completing — or at minimum starting — the relevant education module.
+completing or at minimum starting the relevant education module.
 
 ### 8.1 Curriculum Structure
 
@@ -361,7 +361,7 @@ completing — or at minimum starting — the relevant education module.
 ### 8.2 Delivery Format
 
 Material is delivered through written guides, visual diagrams, and
-in-person community sessions — deliberately not confined to a single
+in-person community sessions deliberately not confined to a single
 digital channel, since not every participant has reliable connectivity at
 the point they need the material most.
 
@@ -427,7 +427,7 @@ flowchart LR
 ### 9.4 Connection to Reforestation
 
 A meaningful share of active agents also take on responsibility for
-coordinating local reforestation activity — see Chapter 10 — creating a
+coordinating local reforestation activity see Chapter 10 - creating a
 direct operational link between CeloHT's financial and environmental work,
 rather than running them as separate programs with separate staff.
 
@@ -445,7 +445,7 @@ deforestation.
 - **Agent-coordinated planting**: the same trained agents who handle
   financial transactions often coordinate local tree-planting activity.
 - **Environmental education**: modules covering why trees matter, basic
-  planting technique, and long-term care — following the same
+  planting technique, and long-term care following the same
   education-first principle as the financial curriculum.
 - **cUSD rewards**: participants who commit to verified planting and
   tracking activity can receive symbolic rewards in cUSD, directly linking
@@ -456,7 +456,7 @@ deforestation.
 ### 10.2 Why cUSD, Specifically
 
 cUSD's price stability makes it a more practical reward mechanism than a
-volatile asset — a participant who plants and tracks trees over several
+volatile asset a participant who plants and tracks trees over several
 months shouldn't see the value of their reward swing unpredictably in the
 meantime.
 
@@ -492,8 +492,8 @@ because they are built, governed, and evaluated differently.
 | **Wallet interaction** | None | Valora-compatible connection |
 | **Content type** | Documentation, program pages, news, impact dashboard | Courses, progress tracking, agent tools |
 
-Both platforms exist to strengthen the same three pillars — Education,
-Agent Network, and Reforestation — and neither is designed as an end in
+Both platforms exist to strengthen the same three pillars Education,
+Agent Network, and Reforestation and neither is designed as an end in
 itself. See [Chapter 25](#25-roadmap) for their build timeline.
 
 ```mermaid
@@ -531,7 +531,7 @@ flowchart LR
 
 The official website (`celoht.com`, with documentation mirrored at
 `docs.celoht.com`) is the first point of contact for most people evaluating
-CeloHT — a journalist researching a story, a funding organization doing
+CeloHT a journalist researching a story, a funding organization doing
 due diligence, or a community member trying to understand what CeloHT
 actually is before trusting an agent.
 
@@ -572,22 +572,22 @@ agent logs a transaction.
 
 ### 13.1 Objectives
 
-- **Compatibility with the Valora wallet** — the dApp does not replace
+- **Compatibility with the Valora wallet** - the dApp does not replace
   Valora; it connects to it
-- **CELO and cUSD support where appropriate** — used for the specific
+- **CELO and cUSD support where appropriate** - used for the specific
   functions each token is suited to, not interchangeably
-- **Educational courses** — a digital mirror of the offline curriculum
+- **Educational courses** - a digital mirror of the offline curriculum
   described in Chapter 8
-- **Downloadable PDF learning resources** — for offline or low-connectivity
+- **Downloadable PDF learning resources** - for offline or low-connectivity
   use, consistent with the realities described in Chapter 5
-- **Learning progress tracking** — per-user completion and assessment history
-- **Community participation** — discussion, feedback channels, and local
+- **Learning progress tracking** - per-user completion and assessment history
+- **Community participation** - discussion, feedback channels, and local
   event coordination
-- **Agent tools** — verification, transaction logging, and reporting
+- **Agent tools** - verification, transaction logging, and reporting
   features specific to active agents
-- **Future smart-contract integrations** — added only where they clearly
+- **Future smart-contract integrations** - added only where they clearly
   serve the mission, evaluated case by case, never for their own sake
-- **Secure wallet connection** — built to established wallet-connection
+- **Secure wallet connection** - built to established wallet-connection
   security practice, not a custom, unaudited scheme
 
 ### 13.2 What the dApp Is Not
@@ -600,8 +600,8 @@ against that same standard before it is built.
 ### 13.3 Development Approach
 
 The dApp will be developed in the open, following the same standards
-already in place in this repository — public issue tracking, CI/CD quality
-gates, and security review — once its dedicated repository is established.
+already in place in this repository public issue tracking, CI/CD quality
+gates, and security review once its dedicated repository is established.
 See [Chapter 19](#19-open-source-strategy).
 
 ---
@@ -662,7 +662,7 @@ specific purpose. Neither is issued, minted, or controlled by CeloHT.
 CELO is Celo's native token, used within the protocol for transaction fees
 and governance. CeloHT's education material explains what CELO is and how
 it functions within the network, and the dApp uses CELO for network
-transactions where appropriate to a given feature — but CELO is not
+transactions where appropriate to a given feature but CELO is not
 positioned as a CeloHT product, reward, or investment.
 
 ### 15.2 cUSD
@@ -702,7 +702,7 @@ with a particular web browser, without owning that browser.
 
 ### 16.2 Why Valora
 
-Valora was chosen because it's designed for simplicity — letting a user
+Valora was chosen because it's designed for simplicity letting a user
 send and receive cUSD and CELO without needing to understand the full
 technical stack underneath. That design goal aligns directly with CeloHT's
 education-first approach: a wallet interface that doesn't require deep
@@ -720,7 +720,7 @@ technical literacy to use safely.
 
 Because CeloHT does not control Valora, any material change to its
 availability, terms, or functionality is treated as an external dependency
-risk — see [Chapter 27](#27-risk-analysis) — and would be addressed through
+risk see [Chapter 27](#27-risk-analysis) and would be addressed through
 CeloHT's governance process described in Chapter 18.
 
 ---
@@ -802,7 +802,7 @@ flowchart TD
 |---|---|
 | Foundation Director | Strategic vision, external representation, final call in a genuine deadlock |
 | Maintainer Council | Technical review, PR approval, day-to-day repository management |
-| Community Contributors | Issues, Pull Requests, Discussions — the entry point to the Maintainer Council |
+| Community Contributors | Issues, Pull Requests, Discussions the entry point to the Maintainer Council |
 
 ### 18.2 Decision-Making
 
@@ -826,8 +826,8 @@ binding policy.
 
 ## 19. Open Source Strategy
 
-CeloHT operates fully in the open. This repository — code, documentation,
-governance policy, and roadmap — is published under the Apache 2.0 License
+CeloHT operates fully in the open. This repository code, documentation,
+governance policy, and roadmap is published under the Apache 2.0 License
 and maintained publicly on GitHub.
 
 ### 19.1 Why Open Source
@@ -852,7 +852,7 @@ and maintained publicly on GitHub.
 
 ### 19.4 Contribution Standards
 
-All contributions — code or documentation — go through Pull Request review,
+All contributions code or documentation go through Pull Request review,
 automated validation (Markdown linting, link checking, YAML/JSON validation),
 and, where relevant, CODEOWNERS-mandated review by a domain-specific
 maintainer. See [`CONTRIBUTING.md`](CONTRIBUTING.md) for the full process.
@@ -877,7 +877,7 @@ network that handles real transactions.
 ### 20.2 Educational Security
 
 Security awareness is embedded directly into the curriculum described in
-Chapter 8 — seed-phrase protection, scam recognition, and a standing rule
+Chapter 8  seed-phrase protection, scam recognition, and a standing rule
 that CeloHT will never ask for a user's seed phrase, private key, or wallet
 password, under any circumstance.
 
@@ -890,7 +890,7 @@ can't participate.
 
 ### 20.4 Incident Response
 
-CeloHT classifies incidents by severity — Critical, High, Medium, Low — and
+CeloHT classifies incidents by severity Critical, High, Medium, Low and
 follows a defined response process: detection, confirmation, containment,
 communication, resolution, and public post-incident review where possible.
 Full detail is documented in [`docs/incident-response.md`](docs/incident-response.md)
@@ -952,14 +952,14 @@ not marketing.
 |---|---|
 | Take a course | Community education sessions (and eventually the dApp) |
 | Become an agent | Complete education, demonstrate competency, get coordinator sign-off |
-| Contribute to this repository | Documentation, examples, tooling — see `CONTRIBUTING.md` |
+| Contribute to this repository | Documentation, examples, tooling see `CONTRIBUTING.md` |
 | Join community discussion | GitHub Discussions, social channels |
 | Propose an idea | Discussion templates for ideas and questions |
 
 ### 22.2 Feedback Loops
 
 Every education session and agent interaction feeds structured feedback
-back into the program design — see [Chapter 26](#26-expected-social-impact)
+back into the program design see [Chapter 26](#26-expected-social-impact)
 for how this connects to public impact reporting.
 
 ### 22.3 Recognition
@@ -993,7 +993,7 @@ transparent about what it offers, and specific about what it needs.
 
 ### 23.3 Getting in Touch
 
-partnerships@celoht.com — see [`docs/partnerships.md`](docs/partnerships.md)
+partnerships@celoht.com see [`docs/partnerships.md`](docs/partnerships.md)
 for the full strategy and [`docs/business-model.md`](docs/business-model.md)
 for the economic context behind any partnership conversation.
 
@@ -1006,32 +1006,32 @@ environmental. Both are treated as design requirements, not aspirations.
 
 ### 24.1 Financial Sustainability
 
-CeloHT is a **nonprofit-style, community-governed initiative** — not a
+CeloHT is a **nonprofit-style, community-governed initiative** - not a
 company issuing equity or promising returns. Its funding model has three
 components:
 
-1. **Ecosystem grants** — primarily from Celo Foundation and aligned programs
-2. **Strategic partnerships** — funding tied to specific projects (e.g., a
+1. **Ecosystem grants** - primarily from Celo Foundation and aligned programs
+2. **Strategic partnerships** - funding tied to specific projects (e.g., a
    dedicated reforestation grant)
-3. **Community contributions** — voluntary support through channels like
+3. **Community contributions** - voluntary support through channels like
    GitHub Sponsors
 
 Over time, the goal is to reduce dependence on grants through reasonable,
-transparent service fees within the agent network — targeted to begin in
+transparent service fees within the agent network targeted to begin in
 Phase 3 of the roadmap and formalized in Phase 4. See
 [`docs/business-model.md`](docs/business-model.md).
 
 ### 24.2 Environmental Sustainability
 
 Reforestation (Chapter 10) is CeloHT's direct environmental sustainability
-mechanism, but sustainability thinking also shapes technical choices — for
+mechanism, but sustainability thinking also shapes technical choices for
 example, favoring Celo's Proof-of-Stake consensus, which carries a far
 lower energy footprint than Proof-of-Work alternatives.
 
 ### 24.3 Organizational Sustainability
 
 Long-term organizational sustainability depends on the governance
-transition described in Chapter 18 — moving from a founder-centered
+transition described in Chapter 18 moving from a founder-centered
 structure to a Maintainer Council and, eventually, a more decentralized
 model capable of outlasting any single individual's involvement.
 
@@ -1041,7 +1041,7 @@ model capable of outlasting any single individual's involvement.
 
 This chapter summarizes CeloHT's phased roadmap. The authoritative,
 continuously updated version lives in [`ROADMAP.md`](ROADMAP.md) at the
-repository root — this section is a snapshot as of publication.
+repository root this section is a snapshot as of publication.
 
 ### 25.1 Phase Overview
 
@@ -1171,12 +1171,12 @@ Valora is developed and operated independently.
 
 **Why does CeloHT use Celo specifically?**
 Its mobile-first design and low transaction fees match the realities of
-CeloHT's target communities — see Chapter 14.
+CeloHT's target communities see Chapter 14.
 
 **How is CeloHT funded?**
 Primarily through Celo ecosystem grants and strategic partnerships today,
 with a planned transition toward partial self-sustainability through agent
-network fees — see Chapter 24.
+network fees see Chapter 24.
 
 **How can I get involved?**
 See Chapter 22 and [`CONTRIBUTING.md`](CONTRIBUTING.md).
@@ -1206,7 +1206,7 @@ speculative long-term claims.
 
 CeloHT is a community-driven, open-source initiative built on the belief
 that financial inclusion, education, and environmental stewardship are not
-three separate problems — they are one problem, viewed from three angles.
+three separate problems they are one problem, viewed from three angles.
 It is built on the Celo ecosystem, uses CELO and cUSD where appropriate, and
 builds tools compatible with the Valora wallet, while remaining, at every
 level, unambiguous about what it is not: not a blockchain, not a token, not
@@ -1215,7 +1215,7 @@ an investment.
 This whitepaper is a living document. As programs move from pilot to
 validated practice, as the website and dApp move from roadmap items to
 shipped software, and as the agent network grows one trained community
-member at a time, this document — and the roadmap behind it — will be
+member at a time, this document and the roadmap behind it will be
 updated to reflect what has actually happened, not just what was planned.
 
 Readers who want to go deeper than this whitepaper allows should treat this
@@ -1260,5 +1260,5 @@ glossary. Key terms used throughout this document:
 ---
 
 <div align="center">
-<sub>CeloHT Whitepaper v1.0 — July 2026 — © CeloHT Contributors — Apache 2.0 Licensed</sub>
+<sub>CeloHT Whitepaper v1.0 - July 2025 - © CeloHT Contributors - Apache 2.0 Licensed</sub>
 </div>

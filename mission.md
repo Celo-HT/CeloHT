@@ -3,7 +3,7 @@
 ## Our Mission
 
 **Expand financial inclusion through education, a decentralized network of
-community agents, and environmental reforestation — built on the Celo
+community agents, and environmental reforestation built on the Celo
 ecosystem as our technical foundation.**
 
 ## How We Actually Do This
@@ -11,8 +11,8 @@ ecosystem as our technical foundation.**
 ### Education comes first, always
 
 Nobody should have to use a financial tool they don't understand. That's why
-every CeloHT initiative starts with education — in Haitian Creole, the
-language people actually think in — before we ever introduce a specific tool
+every CeloHT initiative starts with education in Haitian Creole, the
+language people actually think in before we ever introduce a specific tool
 like Valora or cUSD.
 
 ### Agents as a human bridge

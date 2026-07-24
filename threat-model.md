@@ -19,7 +19,7 @@ user for their seed phrase.
 ### 2. Repository Content Manipulation
 
 **Threat**: A bad-faith contributor edits documentation to publish false
-information — for example, false promises of investment returns.
+information for example, false promises of investment returns.
 
 **Mitigation**: [`CODEOWNERS`](../CODEOWNERS) requires mandatory review for
 sensitive paths; CI checks every change.

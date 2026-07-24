@@ -32,7 +32,7 @@
 Celo ecosystem."
 
 **Never say**: "a blockchain," "a cryptocurrency," "an investment," "a DeFi
-platform," and so on — see [`legal-status.md`](legal-status.md) for the
+platform," and so on see [`legal-status.md`](legal-status.md) for the
 complete list.
 
 ## Consistent Application

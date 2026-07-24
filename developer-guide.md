@@ -2,7 +2,7 @@
 
 ## Development Environment
 
-This repository is primarily documentation and configuration — there's no
+This repository is primarily documentation and configuration there's no
 production application to compile. That said, the validation scripts do
 require:
 
@@ -30,8 +30,8 @@ node scripts/check-required-files.js
 
 Before opening a Pull Request:
 
-1. Run `bash scripts/validate.sh` — checks structure, YAML, JSON
-2. Run `node scripts/check-required-files.js` — checks required documents
+1. Run `bash scripts/validate.sh` checks structure, YAML, JSON
+2. Run `node scripts/check-required-files.js` checks required documents
 
 3. Install `markdownlint-cli2` locally if you're making significant Markdown
    changes:

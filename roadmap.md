@@ -11,7 +11,7 @@ For a quick summary, see [`ROADMAP.md`](../ROADMAP.md) at the repository root.
 - [ ] Recruit and train the first cohort of community agents in Léogâne
 - [ ] Land the first partnerships and grants within the Celo ecosystem
 
-**Success metrics**: 3–5 active agents, 100+ people completing basic training.
+**Success metrics**: 3 - 15 active agents, 100+ people completing basic training.
 
 ## Phase 2 - Validation (2025 Q4 - 2027 Q1)
 

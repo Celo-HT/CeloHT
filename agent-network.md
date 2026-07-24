@@ -4,7 +4,7 @@
 
 Build and support a decentralized network of community agents who handle
 cash-in, cash-out, remittances, peer-to-peer payments, and local financial
-access through the Celo ecosystem — especially in areas where traditional
+access through the Celo ecosystem especially in areas where traditional
 banking hasn't reached.
 
 ## What a Community Agent Does
@@ -29,7 +29,7 @@ A CeloHT agent is someone from the local community who:
 ## Becoming an Agent
 
 1. Complete the full education program
-2. Demonstrate a solid understanding of the basics — Valora, seed phrase
+2. Demonstrate a solid understanding of the basics Valora, seed phrase
    security
 3. Commit to the community's operational standards
 4. Get sign-off from a local network coordinator
@@ -38,4 +38,4 @@ A CeloHT agent is someone from the local community who:
 
 Some community agents also take on responsibility for coordinating local
 reforestation activity, creating a direct link between financial inclusion
-and environmental sustainability — see [`reforestation.md`](reforestation.md).
+and environmental sustainability see [`reforestation.md`](reforestation.md).

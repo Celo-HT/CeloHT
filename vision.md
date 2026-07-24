@@ -17,7 +17,7 @@ opportunity: public blockchain infrastructure like Celo can act as a bridge
 to financial services without requiring a physical branch on every corner.
 
 Growth can't come at the environment's expense, though. That's why
-reforestation isn't an afterthought bolted onto a fintech project — it's
+reforestation isn't an afterthought bolted onto a fintech project it's
 built in as a founding pillar, on equal footing with education and financial
 access.
 

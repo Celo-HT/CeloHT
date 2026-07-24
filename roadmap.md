@@ -2,7 +2,7 @@
 
 For a quick summary, see [`ROADMAP.md`](../ROADMAP.md) at the repository root.
 
-## Phase 1 - Foundation (2022, Q2–Q3)
+## Phase 1 - Foundation (2022, Q2 - Q3)
 
 **Goal**: establish a solid base for operations and governance.
 
@@ -13,7 +13,7 @@ For a quick summary, see [`ROADMAP.md`](../ROADMAP.md) at the repository root.
 
 **Success metrics**: 3–5 active agents, 100+ people completing basic training.
 
-## Phase 2 - Validation (2025 Q4 – 2027 Q1)
+## Phase 2 - Validation (2025 Q4 - 2027 Q1)
 
 **Goal**: validate the model in a pilot area before expanding.
 
@@ -24,7 +24,7 @@ For a quick summary, see [`ROADMAP.md`](../ROADMAP.md) at the repository root.
 **Success metrics**: stable transaction volume, agent retention above 70%,
 first trees planted and tracked.
 
-## Phase 3 — Growth (2027)
+## Phase 3 - Growth (2027)
 
 **Goal**: expand beyond the pilot area.
 
@@ -32,7 +32,7 @@ first trees planted and tracked.
 - [ ] Translate core training material into Spanish
 - [ ] Explore early partnerships in other Caribbean countries
 
-## Phase 4 — Maturity (2028+)
+## Phase 4 - Maturity (2028+)
 
 **Goal**: a self-sustaining ecosystem with mature governance.
 

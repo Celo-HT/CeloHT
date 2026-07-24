@@ -3,7 +3,7 @@
 ## Purpose
 
 This document describes how CeloHT responds when a security or operational
-incident happens — whether that's a vulnerability in this repository, an
+incident happens whether that's a vulnerability in this repository, an
 issue affecting the agent network, or a communication incident like an
 official social media account getting compromised.
 

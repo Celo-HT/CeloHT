@@ -6,7 +6,7 @@
 |---|---|
 | `.github/` | GitHub configuration: CI/CD workflows, Issue/PR/Discussion templates, Dependabot |
 | `assets/branding/` | Official visual assets: logo, colors, typography |
-| `docs/` | The full project documentation — the starting point for anyone new |
+| `docs/` | The full project documentation the starting point for anyone new |
 | `examples/` | Example code and usage patterns |
 | `scripts/` | Validation and automation scripts (bash, Node.js) |
 | `templates/` | Reusable document and communication templates |
@@ -14,11 +14,11 @@
 
 ## Key Root Files
 
-- `README.md` — the main entry point
-- `LICENSE` — the Apache 2.0 license
-- `GOVERNANCE.md` — the full governance model
-- `CODEOWNERS` — review responsibility by file path
-- `CITATION.cff` — academic/technical citation format
+- `README.md` - the main entry point
+- `LICENSE` - the Apache 2.0 license
+- `GOVERNANCE.md` - the full governance model
+- `CODEOWNERS` - review responsibility by file path
+- `CITATION.cff` - academic/technical citation format
 
 ## How to Navigate Depending on Who You Are
 

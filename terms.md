@@ -40,5 +40,5 @@ Any change to this document follows the governance process described in
 ## Governing Law
 
 These terms are interpreted under general good-faith principles, without
-designating a single exclusive jurisdiction — consult a legal professional
+designating a single exclusive jurisdiction consult a legal professional
 for questions specific to your jurisdiction.

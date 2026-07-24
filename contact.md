@@ -22,7 +22,7 @@
 
 CeloHT will never ask for your seed phrase, private key, or Valora password,
 under any circumstances. If someone contacts you claiming to represent
-CeloHT and asks for that information, it's a phishing attempt — don't
+CeloHT and asks for that information, it's a phishing attempt don't
 respond, and report it to conduct@celoht.com.
 
 ## Community

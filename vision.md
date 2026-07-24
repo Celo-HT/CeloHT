@@ -2,7 +2,7 @@
 
 ## Where We're Headed
 
-We want to see a Haiti — and eventually a wider Caribbean — where distance
+We want to see a Haiti and eventually a wider Caribbean where distance
 from a traditional bank branch no longer decides whether someone has access
 to real financial tools. Where people don't just have a wallet on their
 phone, but actually understand how to use it. And where economic progress

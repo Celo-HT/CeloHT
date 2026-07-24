@@ -5,7 +5,7 @@ the people who have made a meaningful contribution to the project.
 
 ## Founder
 
-- **Johnny Dubic** - Founder, CeloHT & FreClean — [@CeloHtOfficial](https://twitter.com/CeloHtOfficial)
+- **Johnny Dubic** - Founder, CeloHT & FreClean  [@CeloHtOfficial](https://twitter.com/CeloHtOfficial)
 
 ## Contributors
 

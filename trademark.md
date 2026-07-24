@@ -16,7 +16,7 @@ not imply any official affiliation with the Celo Foundation or with Valora.
 
 ## Uses That Require Written Permission
 
-- Modifying the logo (color, shape, composition) — see
+- Modifying the logo (color, shape, composition) see
   [`logo-usage.md`](logo-usage.md) for specific rules
 - Using the CeloHT name or logo in a product, service, or domain name
 - Using the mark in a way that suggests an endorsement or partnership that

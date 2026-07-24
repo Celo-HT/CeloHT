@@ -3,8 +3,8 @@
 ## Scope of This Document
 
 This document covers this GitHub repository and general interaction with
-CeloHT documentation. Separate tools — for example, an agent-facing app, if
-one is developed — will have their own privacy policies, referenced here
+CeloHT documentation. Separate tools for example, an agent-facing app, if
+one is developed will have their own privacy policies, referenced here
 once they exist.
 
 ## What This GitHub Repository Collects

@@ -9,7 +9,7 @@ This document provides the essential facts for anyone writing about CeloHT.
 - **Name**: CeloHT
 - **Founded**: Léogâne, Haiti, by Johnny Dubic
 - **Nature**: A community-driven, open-source initiative built on the Celo
-  ecosystem — **not** a cryptocurrency, token, or investment platform
+  ecosystem **not** a cryptocurrency, token, or investment platform
 - **Three Pillars**: Education, Agent Network, Reforestation
 - **Technology**: Celo, CELO, cUSD, and Valora-compatible wallet integration
 - **Primary Language**: Haitian Creole, with documentation in English for
@@ -33,6 +33,6 @@ your publication timeline.
 
 ## Further Resources
 
-- [`media-kit.md`](media-kit.md) — logo and visual assets
-- [`history.md`](history.md) — the full project history
-- [`faq.md`](faq.md) — answers to common questions
+- [`media-kit.md`](media-kit.md) - logo and visual assets
+- [`history.md`](history.md) - the full project history
+- [`faq.md`](faq.md) - answers to common questions

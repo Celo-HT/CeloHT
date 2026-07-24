@@ -41,7 +41,7 @@ promises about earnings.
 See [`CONTRIBUTING.md`](../CONTRIBUTING.md).
 
 **How do I report a security issue?**
-Follow the process in [`SECURITY.md`](../SECURITY.md) — don't open a public
+Follow the process in [`SECURITY.md`](../SECURITY.md) don't open a public
 Issue for it.
 
 Didn't find your answer? Ask in [GitHub Discussions](https://github.com/celo-ht/celoht/discussions).

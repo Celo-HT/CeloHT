@@ -19,7 +19,7 @@ cUSD, are both accessible through the Valora wallet.
 - **Public presence**: CeloHT established a presence on Medium (@celoht3), X
   (@CeloHtOfficial), the Celo Forum, and GitHub (Celo-HT).
 - **Community recognition**: CeloHT was featured in a "Founders" post on the
-  Celo Forum in March 2026, a notable moment of recognition within the
+  Celo Forum in 2025, a notable moment of recognition within the
   broader Celo ecosystem.
 - **Educational output**: development of a full library of Haitian Creole
   training material from a professional trading encyclopedia to a Web3/

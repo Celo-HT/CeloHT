@@ -462,7 +462,7 @@ meantime.
 
 ### 10.3 Principles Governing the Program
 
-1. Every reward is tied to a verifiable action — CeloHT does not distribute
+1. Every reward is tied to a verifiable action CeloHT does not distribute
    cUSD without structure.
 2. The program builds on existing local agricultural knowledge instead of
    importing an external model without adaptation.
@@ -548,8 +548,8 @@ actually is before trusting an agent.
   agents trained, and people educated
 - **Blog & announcements**: longer-form updates, partnership news, and
   milestone write-ups
-- **Multilingual support**: Haitian Creole, English, and — as the Caribbean
-  expansion progresses — Spanish
+- **Multilingual support**: Haitian Creole, English, and as the Caribbean
+  expansion progresses Spanish
 - **Accessibility**: a baseline requirement in design and development, not
   a post-launch fix
 - **Performance optimization**: built with low-bandwidth mobile users in
@@ -668,7 +668,7 @@ positioned as a CeloHT product, reward, or investment.
 ### 15.2 cUSD
 
 cUSD, a stablecoin pegged to the US dollar, is the asset CeloHT actively
-promotes for everyday, accessible digital payments — agent transactions,
+promotes for everyday, accessible digital payments agent transactions,
 reforestation rewards, and any other everyday use case where price
 stability matters more than anything else. cUSD's peg is what makes it
 usable for a participant who cannot afford to absorb volatility on a small
@@ -816,7 +816,7 @@ flowchart TD
 ### 18.3 Roadmap Toward Decentralization
 
 As described in [Chapter 25](#25-roadmap), CeloHT's governance model is
-designed to evolve — starting with a lightweight elected community input
+designed to evolve starting with a lightweight elected community input
 process in Phase 3, moving toward a more formally decentralized model in
 Phase 4. This is a deliberate, staged transition rather than a promise with
 no mechanism behind it; see [`GOVERNANCE.md`](GOVERNANCE.md) for the current
@@ -1189,14 +1189,14 @@ For the complete, continuously updated FAQ, see [`docs/faq.md`](docs/faq.md).
 
 Looking beyond the current roadmap horizon, CeloHT's long-term ambition is
 a mature, largely community-governed ecosystem operating across multiple
-Caribbean countries — not as a single centralized organization exporting a
+Caribbean countries not as a single centralized organization exporting a
 fixed model, but as a replicable approach that regional teams can adapt to
 their own linguistic and economic context.
 
 That future depends on getting the fundamentals right first: a validated
 pilot, a trustworthy agent network, transparent governance, and an honest
 account of what works and what doesn't. CeloHT deliberately avoids
-promising that future before earning it — which is why this whitepaper
+promising that future before earning it which is why this whitepaper
 spends more space on current mechanisms and near-term milestones than on
 speculative long-term claims.
 

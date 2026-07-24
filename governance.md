@@ -1,8 +1,8 @@
 # Governance
 
 This document summarizes governance in the context of the broader
-documentation set. For the full operational detail — structure, decision
-process, and how disputes get resolved — see [`GOVERNANCE.md`](../GOVERNANCE.md)
+documentation set. For the full operational detail structure, decision
+process, and how disputes get resolved see [`GOVERNANCE.md`](../GOVERNANCE.md)
 at the root of the repository.
 
 ## Summary

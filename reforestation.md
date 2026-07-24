@@ -3,7 +3,7 @@
 ## The Goal
 
 Promote environmental sustainability through tree planting, ecological
-restoration, environmental education, and community-led climate work — as a
+restoration, environmental education, and community-led climate work as a
 pillar equal to education and the agent network, not an afterthought.
 
 ## Why Reforestation Belongs in a Financial Initiative
@@ -28,7 +28,7 @@ for attention.
 
 ## Core Principles
 
-- We don't hand out cUSD without structure — every reward is tied to a
+- We don't hand out cUSD without structure every reward is tied to a
   verifiable action.
 - We work with existing local agricultural knowledge instead of imposing an
   outside model without adaptation.

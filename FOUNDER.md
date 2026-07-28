@@ -51,8 +51,10 @@ Committed to lifelong learning through independent study, technical documentatio
 
 ## Languages
 
-- Haitian Creole (Native)
-- French
+- Haitian Creole - Native
+- French  - Professional Working Proficiency
+- English - Basic
+- Spanish - Professional Working Proficiency
 
 ## Organizations
 

@@ -1,46 +1,95 @@
 <div align="center">
 <img width="720" height="720" alt="IMG_20260728_183027" src="https://github.com/user-attachments/assets/5ae3957d-ac69-4b40-9587-9f300dc231c0" />
 
-Johnny Dubic
+# Johnny Dubic
 
-Founder of CeloHT & FreClean
+## Founder | CeloHT & FreClean
 
-Johnny Dubic was born on April 16, 2000, in Léogâne, Ouest, Haiti. He is a Haitian entrepreneur, Web3 advocate, journalist, and community builder dedicated to using technology to create social and economic opportunities.
+Johnny Dubic was born on **April 16, 2000**, in **Léogâne, Ouest, Haiti**. He is a Haitian entrepreneur, Web3 advocate, journalist, and community builder committed to advancing financial inclusion, education, and sustainable development through technology.
 
-From an early age, he developed a strong interest in innovation, entrepreneurship, and community development. His work spans several fields, including telecommunications, digital marketing, blockchain technology, journalism, and the production of cleaning products such as soaps, liquid detergents, shampoos, and other hygiene solutions.
+## Biography
 
-Driven by a passion for decentralized technologies, Johnny discovered the Celo ecosystem and recognized its potential to improve financial inclusion in Haiti and across underserved communities. This vision led him to establish CeloHT, a community-driven initiative built on three core pillars:
+Growing up in Léogâne, Johnny developed a passion for innovation, technology, and community service. He believes blockchain can become a powerful tool for economic empowerment and social impact, particularly in underserved communities.
 
-- Education – Promoting financial literacy, blockchain knowledge, and Web3 skills.
-- Agent Network – Expanding access to digital financial services through local community agents.
-- Reforestation – Supporting environmental sustainability through tree-planting initiatives.
+His entrepreneurial journey led him to found **CeloHT**, a community-driven initiative built on the Celo blockchain to promote financial inclusion through education, local agent networks, and environmental sustainability. He also founded **FreClean**, a company specializing in professional cleaning services and locally manufactured cleaning products.
 
-In parallel, Johnny founded FreClean, a company focused on professional cleaning services and locally manufactured cleaning products, combining entrepreneurship with innovation and community impact.
+Today, Johnny continues building solutions that combine technology, entrepreneurship, and community development to create long-term impact in Haiti and beyond.
 
-His long-term vision is to help position Haiti as an active participant in the global digital economy by empowering individuals with knowledge, accessible financial tools, and sustainable opportunities. Through CeloHT and FreClean, he aims to build solutions that create measurable social, economic, and environmental impact.
+## Education
 
-Mission
+### Primary & Secondary Education
 
-To empower communities through education, Web3 technology, financial inclusion, entrepreneurship, and environmental sustainability.
+- École Mixte Saint-Étienne de Buteau
+- Léogâne, Ouest, Haiti
 
-Vision
+### Continuing Education
 
-To build internationally recognized organizations that demonstrate how technology, education, and community collaboration can improve lives while creating a more inclusive and sustainable future.
+Committed to lifelong learning through independent study, technical documentation, open-source communities, and hands-on experience in:
 
-Areas of Expertise
+- Web3 Technologies
+- Blockchain
+- Celo Ecosystem
+- Decentralized Finance (DeFi)
+- Digital Marketing
+- Telecommunications
+- Open Source Development
+- Entrepreneurship
+- Community Development
+
+## Areas of Expertise
 
 - Telecommunications
-- Digital Marketing
 - Web3 & Blockchain
 - Cryptocurrency Ecosystems
-- Community Building
+- Digital Marketing
 - Journalism
+- Community Development
 - Entrepreneurship
-- Cleaning Product Development
+- Cleaning Product Formulation (Soaps, Liquid Detergents, Shampoos)
 - Financial Inclusion
 - Project Development
 
-Connect
+## Languages
 
+- Haitian Creole (Native)
+- French
+
+## Organizations
+
+### CeloHT
+**Founder (2022 – Present)**
+
+A community-driven Web3 initiative leveraging the Celo blockchain to advance financial inclusion through education, decentralized community agent networks, and environmental sustainability.
+
+### FreClean
+**Founder (2026 – Present)**
+
+A professional cleaning services and cleaning-products company dedicated to quality, innovation, and community empowerment.
+
+## Mission
+
+To empower communities through education, blockchain technology, entrepreneurship, and environmental sustainability.
+
+## Vision
+
+To build internationally recognized organizations that demonstrate how Web3 technology can improve lives, strengthen local economies, and create sustainable opportunities for future generations.
+
+## Core Values
+
+- Transparency
+- Community
+- Open Source
+- Financial Inclusion
+- Sustainability
+- Innovation
+- Integrity
+- Collaboration
+
+## Connect
+
+- Website: https://celoht.com | https://frecleane.com
+- GitHub: https://github.com/Celo-HT
 - LinkedIn: https://www.linkedin.com/in/johnny-dubic-590585218
-- X (Twitter): https://x.com/JohnnyDubic
+- X: https://x.com/JohnnyDubic
+
+Building Web3 solutions for financial inclusion, education, and sustainable development.

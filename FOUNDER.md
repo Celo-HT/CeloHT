@@ -44,4 +44,3 @@ Connect
 
 - LinkedIn: https://www.linkedin.com/in/johnny-dubic-590585218
 - X (Twitter): https://x.com/JohnnyDubic
-- Website: https://celoht.com

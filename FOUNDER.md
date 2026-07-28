@@ -1,3 +1,6 @@
+
+<img width="720" height="720" alt="IMG_20260728_183027" src="https://github.com/user-attachments/assets/5ae3957d-ac69-4b40-9587-9f300dc231c0" />
+
 Johnny Dubic
 
 Founder of CeloHT & FreClean
